@@ -27,38 +27,28 @@ function fb_Msg(title, likes, comments, link) {
 }
 
 // Hilfsfunktionen
-function fb_makeRequest(id, attribute, count) {
-    fb_http_request[count] = new XMLHttpRequest();
-    var url = "data/fb2json_politiker.php?id=" + id + "&attribute=" + attribute;
-    fb_http_request[count].open("GET", url, true);
-    fb_http_request[count].onreadystatechange = function () {
-        var done = 4, ok = 200;
-        if (fb_http_request[count].readyState == done
-            && fb_http_request[count].status == ok) {
-            fb_json[count] = JSON.parse(fb_http_request[count].responseText);
-            fb_handleRequest(count);
-        }
-    };
-    fb_http_request[count].send(null);
-}
-
-function fb_handleRequest(count) {
-    switch (count) {
-        case 0:
+function fb_request(id, attribute) {
+    apiUrl = 'https://graph.facebook.com/'
+    if (attribute != ''){
+        attribute = '/'+ attribute;
+    }
+    token = 'AAACZCEZAB3PGkBALunsPJTKatfNov6KQgPbcwZBhk6UCn95OEurBfPk4KQowA3g7K8MLZBLQOutnLYKvDHFXShOX8JCRVuPnhhkux7vQ8gZDZD';
+    url = apiUrl + id + attribute + '?access_token=' + token;
+    $.getJSON(url, function (data){
+        if (data.name){
             document.getElementById("SeiteUndLikes").innerHTML = "Die Seite von "
-                + fb_json[count].name
+                + data.name
                 + " gef&auml;llt "
-                + fb_json[count].likes
+                + data.likes
                 + " Personen.";
-            break;
-        case 1:
+        } else {
             var msgs = new Array();
-            for (var i in fb_json[count].data) {
-                if (fb_json[count].data[i].message != undefined) {
-                    msgs.push(new fb_Msg(fb_json[count].data[i].message,
-                        fb_json[count].data[i].likes.count,
-                        fb_json[count].data[i].comments.count,
-                        fb_json[count].data[i].actions[0].link));
+            for (var i in data.data) {
+                if (data.data[i].message != undefined) {
+                    msgs.push(new fb_Msg(data.data[i].message,
+                        data.data[i].likes.count,
+                        data.data[i].comments.count,
+                        data.data[i].actions[0].link));
                 }
             }
             msgs = msgs.sort(function (a, b) {
@@ -75,18 +65,11 @@ function fb_handleRequest(count) {
                 document.getElementById("M" + (i + 1) + "Comments").innerHTML += msgs[i]
                     .getComments();
             }
-            break;
-    }
+        }
+    })
+
 }
 
-// Requestfunktion
-function fb_request(id, attribute, count) {
-    fb_makeRequest(id, attribute, count++);
-}
 
-var fb_counter = 0;
-// Counter 0: Seite und Likes
-fb_request('HorstSeehofer', '', fb_counter);
-fb_counter++;
-// Counter 1: Events
-fb_request('HorstSeehofer', 'posts', fb_counter);
+fb_request('HorstSeehofer', '');
+fb_request('HorstSeehofer', 'posts');
