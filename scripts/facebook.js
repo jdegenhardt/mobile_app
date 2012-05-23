@@ -28,14 +28,14 @@ function fb_Msg(title, likes, comments, link) {
 
 // Hilfsfunktionen
 function fb_request(id, attribute) {
-    apiUrl = 'https://graph.facebook.com/'
-    if (attribute != ''){
-        attribute = '/'+ attribute;
+    var apiUrl = 'https://graph.facebook.com/'
+    if (attribute != '') {
+        attribute = '/' + attribute;
     }
-    token = 'AAACZCEZAB3PGkBALunsPJTKatfNov6KQgPbcwZBhk6UCn95OEurBfPk4KQowA3g7K8MLZBLQOutnLYKvDHFXShOX8JCRVuPnhhkux7vQ8gZDZD';
-    url = apiUrl + id + attribute + '?access_token=' + token;
-    $.getJSON(url, function (data){
-        if (data.name){
+    var token = 'AAACZCEZAB3PGkBALunsPJTKatfNov6KQgPbcwZBhk6UCn95OEurBfPk4KQowA3g7K8MLZBLQOutnLYKvDHFXShOX8JCRVuPnhhkux7vQ8gZDZD';
+    var url = apiUrl + id + attribute + '?access_token=' + token;
+    $.getJSON(url, function (data) {
+        if (data.name) {
             document.getElementById("SeiteUndLikes").innerHTML = "Die Seite von "
                 + data.name
                 + " gef&auml;llt "
