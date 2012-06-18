@@ -10,22 +10,12 @@
 
     <!-- iframe Settings -->
     <style type="text/css">
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-
+        html, body { margin: 0; padding: 0; height: 100%; }
         iframe {
             position: absolute;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-            padding-top: 0px;
-            box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            -webkit-box-sizing: border-box;
+            left: 0; width: 100%; height: 100%;
+            border: none; padding-top: 0px;
+            box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
         }
     </style>
     <!-- /iframe Settings -->
@@ -79,22 +69,15 @@
     <!-- /header -->
     <!-- content -->
     <div data-role="content">
-        <fieldset class="ui-grid-a">
-            <div class="ui-block-a"><a href="#landtag_social_facebook" data-role="button"><img
-                    src="imgs/social_media/facebook.png"></a></div>
-            <div class="ui-block-b"><a href="#landtag_social_twitter" data-role="button"><img
-                    src="imgs/social_media/twitter.png"></a></div>
-            <div class="ui-block-a"><a href="#landtag_social_google" data-role="button"><img
-                    src="imgs/social_media/google.png"></a></div>
-            <div class="ui-block-b"><a href="#landtag_social_xing" data-role="button"><img
-                    src="imgs/social_media/xing.png"></a></div>
-            <div class="ui-block-a"><a href="#landtag_social_linkedin" data-role="button"><img
-                    src="imgs/social_media/linkedin.png"></a></div>
-            <div class="ui-block-b"><a href="#landtag_social_rss" data-role="button"><img
-                    src="imgs/social_media/rss.png"></a></div>
-        </fieldset>
-    </div>
-    <!-- /content -->
+    <fieldset class="ui-grid-a">
+        <div class="ui-block-a"><a href="#landtag_social_facebook" data-role="button"><img src="imgs/social_media/facebook.png"></a></div>
+        <div class="ui-block-b"><a href="#landtag_social_twitter" data-role="button"><img src="imgs/social_media/twitter.png"></a></div>
+        <div class="ui-block-a"><a href="#landtag_social_google" data-role="button"><img src="imgs/social_media/google.png"></a></div>
+        <div class="ui-block-b"><a href="#landtag_social_xing" data-role="button"><img src="imgs/social_media/xing.png"></a></div>
+        <div class="ui-block-a"><a href="#landtag_social_linkedin" data-role="button"><img src="imgs/social_media/linkedin.png"></a></div>
+        <div class="ui-block-b"><a href="#landtag_social_rss" data-role="button"><img src="imgs/social_media/rss.png"></a></div>
+    </fieldset>
+</div>    <!-- /content -->
 </div>
 
 <!-- /landtag_social- Page -->
@@ -117,75 +100,62 @@
     <!-- /header -->
     <!-- content -->
     <div data-role="content">
-        <script type="text/javascript" src="scripts/facebook.js"></script>
+    <script type="text/javascript" src="scripts/facebook.js"></script>
 
-        <table border="0px" width="auto">
-            <tr>
-                <td>
-                    <div id="SeiteUndLikes"></div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div id="Veranstaltungen">Dies sind die
-                        Top 3 aktuell kontroversen Nachrichten:
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td class="tabellenlinie">
-                    <table border="0px">
-                        <tr>
-                            <td colspan=2><p id="M1"></p></td>
-                        </tr>
-                        <tr>
-                            <td align="left">
-                                <div id="M1Likes"><img src="imgs/social_media/facebook/ilike.png"></div>
-                            </td>
-                            <td align="right">
-                                <div id="M1Comments"><img src="imgs/social_media/facebook/comments.png"></div>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td class="tabellenlinie">
-                    <table border="0px">
-                        <tr>
-                            <td colspan=2><p id="M2"></p></td>
-                        </tr>
-                        <tr>
-                            <td align="left">
-                                <div id="M2Likes"><img src="imgs/social_media/facebook/ilike.png"></div>
-                            </td>
-                            <td align="right">
-                                <div id="M2Comments"><img src="imgs/social_media/facebook/comments.png"></div>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td class="tabellenlinie">
-                    <table border="0px">
-                        <tr>
-                            <td colspan=2><p id="M3"></p></td>
-                        </tr>
-                        <tr>
-                            <td align="left">
-                                <div id="M3Likes"><img src="imgs/social_media/facebook/ilike.png"></div>
-                            </td>
-                            <td align="right">
-                                <div id="M3Comments"><img src="imgs/social_media/facebook/comments.png"></div>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <!-- /content -->
+    <table border="0px" width="auto">
+        <tr>
+            <td>
+                <div id="SeiteUndLikes"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="Veranstaltungen">Dies sind die
+                    Top 3 aktuell kontroversen Nachrichten:
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="tabellenlinie">
+                <table border="0px">
+                    <tr>
+                        <td colspan=2><p id="M1"></p></td>
+                    </tr>
+                    <tr>
+                        <td align="left"><div id="M1Likes"><img src="imgs/social_media/facebook/ilike.png"></div></td>
+                        <td align="right"><div id="M1Comments"><img src="imgs/social_media/facebook/comments.png"></div></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="tabellenlinie">
+                <table border="0px">
+                    <tr>
+                        <td colspan=2><p id="M2"></p></td>
+                    </tr>
+                    <tr>
+                        <td align="left"><div id="M2Likes"><img src="imgs/social_media/facebook/ilike.png"></div></td>
+                        <td align="right"><div id="M2Comments"><img src="imgs/social_media/facebook/comments.png"></div></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="tabellenlinie">
+                <table border="0px">
+                    <tr>
+                        <td colspan=2><p id="M3"></p></td>
+                    </tr>
+                    <tr>
+                        <td align="left"><div id="M3Likes"><img src="imgs/social_media/facebook/ilike.png"></div></td>
+                        <td align="right"><div id="M3Comments"><img src="imgs/social_media/facebook/comments.png"></div></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>    <!-- /content -->
 </div>
 <!-- /page -->
 <!-- landtag_social_twitter- Page -->
@@ -207,10 +177,9 @@
     <!-- /header -->
     <!-- content -->
     <div data-role="content">
-        <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-        <script type="text/javascript" src="scripts/twitter.js"></script>
-    </div>
-    <!-- /content -->
+    <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script type="text/javascript" src="scripts/twitter.js"></script>
+</div>    <!-- /content -->
 </div>
 <!-- /page -->
 <!-- /landtag_social- Pages -->
@@ -232,10 +201,8 @@
     <!-- /header -->
     <!-- content -->
     <div data-role="content">
-        <iframe padding="0" width="340" height="380"
-                src="http://www.bayern.landtag.de/cps/rde/xchg/landtag/x/-/mobile/mobile_index.htm?sMenu=AKTUELL"></iframe>
-    </div>
-    <!-- /content -->
+    <iframe padding="0" width="340" height="380" src="http://www.bayern.landtag.de/cps/rde/xchg/landtag/x/-/mobile/mobile_index.htm?sMenu=AKTUELL"></iframe>
+</div>    <!-- /content -->
 </div>
 <!-- /page -->
 <!-- landtag_berichte- Pages -->
@@ -257,16 +224,14 @@
     <!-- /header -->
     <!-- content -->
     <div data-role="content">
-        <ul data-role="listview" data-inset="true" data-filter="false">
-            <li><a href="#landtag_berichte_map" data-transition="slide">Trendprognose</a></li>
-            <li><a href="#landtag_berichte_kita" data-transition="slide">KiTa Pl&auml;tze Berlin</a></li>
-            <li><a href="#landtag_berichte_bezirke" data-transition="slide">Regierungsbezirke</a></li>
-            <li><a href="#landtag_berichte_kantine" data-transition="slide">Schwarzes Brett</a></li>
-            <!-- <li><a href="#landtag_berichte_security" data-transition="slide">&Uuml;berwachungskamera</a></li>
-        <li><a href="#landtag_berichte_kantine" data-transition="slide">Kantinenspeiseplan</a></li> -->
-        </ul>
-    </div>
-    <!-- /content -->
+    <ul data-role="listview" data-inset="true" data-filter="false">
+        <li><a href="#landtag_berichte_map" data-transition="slide">Trendprognose</a></li>
+        <li><a href="#landtag_berichte_kita" data-transition="slide">KiTa Pl&auml;tze Bayern</a></li>
+        <li><a href="#landtag_berichte_bezirke" data-transition="slide">Regierungsbezirke</a></li>
+        <li><a href="#landtag_berichte_security" data-transition="slide">&Uuml;berwachungskamera</a></li>
+        <li><a href="#landtag_berichte_kantine" data-transition="slide">Kantinenspeiseplan</a></li> 
+    </ul>
+</div>    <!-- /content -->
 </div>
 <!-- /page -->
 <!-- landtag_berichte_map- Page -->
@@ -289,70 +254,68 @@
     <!-- content -->
     <div data-role="content">
 
-        <select name="map-select" id="map-select" data-mini="true">
-            <option value="1">Raucherschutzgesetz</option>
-            <option value="2">Datenschutz</option>
-            <option value="3">Autobahnmaut</option>
-            <option value="4">Finanzpolitik</option>
-            <option value="5">Umweltpolitik</option>
-        </select>
+    <select name="map-select" id="map-select" data-mini="true">
+        <option value="1">Raucherschutzgesetz</option>
+        <option value="2">Datenschutz</option>
+        <option value="3">Autobahnmaut</option>
+        <option value="4">Finanzpolitik</option>
+        <option value="5">Umweltpolitik</option>
+    </select>
 
-        <script type="text/javascript">
-            $('#map-select').change(function () {
-                $('#mapbild').attr('src', 'imgs/map/' + $(this).attr('value') + '.png');
-            });
-        </script>
+    <script type="text/javascript">
+        $('#map-select').change(function()
+        {
+            $('#mapbild').attr('src', 'imgs/map/'+$(this).attr('value')+'.png');
+        });
+    </script>
 
-        <br/><br/>
-        <a href="#landtag_berichte_map_trends" data-transition="fade"><img id="mapbild" src="imgs/map/1.png"
-                                                                           width="100%"></a>
-    </div>
-    <!-- /content -->
+    <br /><br />
+    <a href="#landtag_berichte_map_trends" data-transition="fade"><img id="mapbild" src="imgs/map/1.png" width="100%"></a>
+</div>    <!-- /content -->
 </div>
 <!-- /page -->
 <!-- landtag_berichte_map_trends- Page -->
 <div data-role="page" id="landtag_berichte_map_trends" data-add-back-btn="false">
-    <!-- header -->
-    <div data-role="header" data-position="fixed">
-        <h1>Trendprognose f&uuml;r Oberfranken</h1>
-        <a href="#landtag_berichte_map" data-icon="arrow-l" data-direction="reverse" data-transition="slide">Back</a>
-        <!-- navbar -->
-        <div data-role="navbar">
-            <ul>
-                <li><a href="#landtag_homepage">Aktuelles</a></li>
-                <li><a href="#landtag_social">Social Media</a></li>
-                <li><a href="#landtag_berichte" class="ui-btn-active ui-state-persist">Berichte</a></li>
-            </ul>
-        </div>
-        <!-- /navbar -->
+<!-- header -->
+<div data-role="header" data-position="fixed">
+    <h1>Trendprognose f&uuml;r Oberfranken</h1>
+    <a href="#landtag_berichte_map" data-icon="arrow-l" data-direction="reverse" data-transition="slide">Back</a>
+    <!-- navbar -->
+    <div data-role="navbar">
+        <ul>
+            <li><a href="#landtag_homepage">Aktuelles</a></li>
+            <li><a href="#landtag_social">Social Media</a></li>
+            <li><a href="#landtag_berichte" class="ui-btn-active ui-state-persist">Berichte</a></li>
+        </ul>
     </div>
-    <!-- /header -->
-    <!-- content -->
-    <div data-role="content">
-        <table>
-            <tr>
-                <td>Raucherschutzgesetz</td>
-                <td><img src="imgs/map/go_medium_down.png"></td>
-            </tr>
-            <tr>
-                <td>Datenschutz</td>
-                <td><img src="imgs/map/go_up.png"></td>
-            </tr>
-            <tr>
-                <td>Autobahnmaut</td>
-                <td><img src="imgs/map/go_medium_down.png"></td>
-            </tr>
-            <tr>
-                <td>Finanzpolitik</td>
-                <td><img src="imgs/map/go_medium.png"></td>
-            </tr>
-            <tr>
-                <td>Umweltpolitik</td>
-                <td><img src="imgs/map/go_up_medium.png"></td>
-            </tr>
-        </table>
-    </div>
-    <!-- /content -->
+    <!-- /navbar -->
+</div>
+<!-- /header -->
+<!-- content -->
+<div data-role="content">
+    <table>
+        <tr>
+            <td>Raucherschutzgesetz</td>
+            <td><img src="imgs/map/go_medium_down.png"></td>
+        </tr>
+        <tr>
+            <td>Datenschutz</td>
+            <td><img src="imgs/map/go_up.png"></td>
+        </tr>
+        <tr>
+            <td>Autobahnmaut</td>
+            <td><img src="imgs/map/go_medium_down.png"></td>
+        </tr>
+        <tr>
+            <td>Finanzpolitik</td>
+            <td><img src="imgs/map/go_medium.png"></td>
+        </tr>
+        <tr>
+            <td>Umweltpolitik</td>
+            <td><img src="imgs/map/go_up_medium.png"></td>
+        </tr>
+    </table>
+</div><!-- /content -->
 </div>
 <!-- /Page -->
 <!-- landtag_berichte_kita- Page -->
@@ -374,50 +337,49 @@
     <!-- /header -->
     <!-- content -->
     <div data-role="content">
-        <table>
-            <tr>
-                <th>Regierungsbezirk</th>
-                <th>KiTapl&auml;tze</th>
-                <th>Kosten in Mio. &euro;</th>
-            </tr>
-            <tr>
-                <td>Mittelfranken</td>
-                <td>75.000</td>
-                <td>2,2</td>
-            </tr>
-            <tr>
-                <td>Niederbayern</td>
-                <td>80.000</td>
-                <td>1,7</td>
-            </tr>
-            <tr>
-                <td>Oberbayern</td>
-                <td>85.000</td>
-                <td>3,1</td>
-            </tr>
-            <tr>
-                <td>Oberfranken</td>
-                <td>45.000</td>
-                <td>0,8</td>
-            </tr>
-            <tr>
-                <td>Oberpfalz</td>
-                <td>33.000</td>
-                <td>0,6</td>
-            </tr>
-            <tr>
-                <td>Schwaben</td>
-                <td>24.000</td>
-                <td>0,4</td>
-            </tr>
-            <tr>
-                <td>Unterfranken</td>
-                <td>54.000</td>
-                <td>1,1</td>
-            </tr>
-        </table>
-    </div>
-    <!-- /content -->
+    <table>
+        <tr>
+            <th>Regierungsbezirk</th>
+            <th>KiTapl&auml;tze</th>
+            <th>Kosten in Mio. &euro;</th>
+        </tr>
+        <tr>
+            <td>Mittelfranken</td>
+            <td>75.000</td>
+            <td>2,2</td>
+        </tr>
+        <tr>
+            <td>Niederbayern</td>
+            <td>80.000</td>
+            <td>1,7</td>
+        </tr>
+        <tr>
+            <td>Oberbayern</td>
+            <td>85.000</td>
+            <td>3,1</td>
+        </tr>
+        <tr>
+            <td>Oberfranken</td>
+            <td>45.000</td>
+            <td>0,8</td>
+        </tr>
+        <tr>
+            <td>Oberpfalz</td>
+            <td>33.000</td>
+            <td>0,6</td>
+        </tr>
+        <tr>
+            <td>Schwaben</td>
+            <td>24.000</td>
+            <td>0,4</td>
+        </tr>
+        <tr>
+            <td>Unterfranken</td>
+            <td>54.000</td>
+            <td>1,1</td>
+        </tr>
+    </table>
+</div>    <!-- /content -->
 </div>
 <!-- /page -->
 <!-- landtag_berichte_kantine- Page -->
@@ -440,107 +402,72 @@
     <!-- content -->
     <div data-role="content">
 
-        <script type="text/javascript" src="scripts/essen.js"></script>
+    <script type="text/javascript" src="scripts/essen.js"></script>
 
-        <script type="text/javascript">
-            $(document).ready(essen_makeRequest('151807808195576', 'posts'));
-        </script>
+    <script type="text/javascript">
+        $(document).ready(essen_makeRequest('151807808195576', 'posts'));
+    </script>
 
-        <div id="test"></div>
-        <table border="1">
-            <tr>
-                <td colspan="2">
-                    <div id="T1" align="center"
-                         style="font-weight: bold; color: white; background-color: #003C78"></div>
-                </td>
-            </tr>
-            <tr>
-                <td><b>Gericht</b>
-                </td>
-                <td><b>Preis</b>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div id="T1e1"></div>
-                </td>
-                <td>
-                    <div id="T1p1"></div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div id="T1e2"></div>
-                </td>
-                <td>
-                    <div id="T1p2"></div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div id="T1e3"></div>
-                </td>
-                <td>
-                    <div id="T1p3"></div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div id="T1e4"></div>
-                </td>
-                <td>
-                    <div id="T1p4"></div>
-                </td>
-            </tr>
+    <div id="test"></div>
+    <table border="1">
+        <tr>
+            <td colspan="2"><div id="T1" align="center"
+                                 style="font-weight: bold; color: white; background-color: #003C78"></div>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Gericht</b>
+            </td>
+            <td><b>Preis</b>
+            </td>
+        </tr>
+        <tr>
+            <td><div id="T1e1"></div></td>
+            <td><div id="T1p1"></div></td>
+        </tr>
+        <tr>
+            <td><div id="T1e2"></div></td>
+            <td><div id="T1p2"></div></td>
+        </tr>
+        <tr>
+            <td><div id="T1e3"></div></td>
+            <td><div id="T1p3"></div></td>
+        </tr>
+        <tr>
+            <td><div id="T1e4"></div></td>
+            <td><div id="T1p4"></div></td>
+        </tr>
 
-            <tr>
-                <td colspan="2">
-                    <div id="T2" align="center"
-                         style="font-weight: bold; color: white; background-color: #003C78"></div>
-                </td>
-            </tr>
-            <tr>
-                <td><b>Gericht</b>
-                </td>
-                <td><b>Preis</b>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div id="T2e1"></div>
-                </td>
-                <td>
-                    <div id="T2p1"></div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div id="T2e2"></div>
-                </td>
-                <td>
-                    <div id="T2p2"></div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div id="T2e3"></div>
-                </td>
-                <td>
-                    <div id="T2p3"></div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div id="T2e4"></div>
-                </td>
-                <td>
-                    <div id="T2p4"></div>
-                </td>
-            </tr>
-        </table>
+        <tr>
+            <td colspan="2"><div id="T2" align="center"
+                                 style="font-weight: bold; color: white; background-color: #003C78"></div>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Gericht</b>
+            </td>
+            <td><b>Preis</b>
+            </td>
+        </tr>
+        <tr>
+            <td><div id="T2e1"></div></td>
+            <td><div id="T2p1"></div></td>
+        </tr>
+        <tr>
+            <td><div id="T2e2"></div></td>
+            <td><div id="T2p2"></div></td>
+        </tr>
+        <tr>
+            <td><div id="T2e3"></div></td>
+            <td><div id="T2p3"></div></td>
+        </tr>
+        <tr>
+            <td><div id="T2e4"></div></td>
+            <td><div id="T2p4"></div></td>
+        </tr>
+    </table>
 
-    </div>
-    <!-- /content -->
+</div>    <!-- /content -->
 </div>
 <!-- /page -->
 <!-- landtag_berichte_bezirke- Pages -->
@@ -563,17 +490,16 @@
     <!-- /header -->
     <!-- content -->
     <div data-role="content">
-        <ul data-role="listview" data-inset="true" data-filter="false">
-            <li><a href="#landtag_berichte_bezirke_mittelfranken" data-transition="slide">Mittelfranken</a></li>
-            <li><a href="#landtag_berichte_bezirke_niederbayern" data-transition="slide">Niederbayern</a></li>
-            <li><a href="#landtag_berichte_bezirke_oberbayern" data-transition="slide">Oberbayern</a></li>
-            <li><a href="#landtag_berichte_bezirke_oberfranken" data-transition="slide">Oberfranken</a></li>
-            <li><a href="#landtag_berichte_bezirke_oberpfalz" data-transition="slide">Oberpfalz</a></li>
-            <li><a href="#landtag_berichte_bezirke_schwaben" data-transition="slide">Schwaben</a></li>
-            <li><a href="#landtag_berichte_bezirke_unterfranken" data-transition="slide">Unterfranken</a></li>
-        </ul>
-    </div>
-    <!-- /content -->
+    <ul data-role="listview" data-inset="true" data-filter="false">
+        <li><a href="#landtag_berichte_bezirke_mittelfranken" data-transition="slide">Mittelfranken</a></li>
+        <li><a href="#landtag_berichte_bezirke_niederbayern" data-transition="slide">Niederbayern</a></li>
+        <li><a href="#landtag_berichte_bezirke_oberbayern" data-transition="slide">Oberbayern</a></li>
+        <li><a href="#landtag_berichte_bezirke_oberfranken" data-transition="slide">Oberfranken</a></li>
+        <li><a href="#landtag_berichte_bezirke_oberpfalz" data-transition="slide">Oberpfalz</a></li>
+        <li><a href="#landtag_berichte_bezirke_schwaben" data-transition="slide">Schwaben</a></li>
+        <li><a href="#landtag_berichte_bezirke_unterfranken" data-transition="slide">Unterfranken</a></li>
+    </ul>
+</div>    <!-- /content -->
 </div>
 <!-- /Page -->
 <!-- landtag_berichte_bezirke_unterfranken- Page -->
@@ -581,8 +507,7 @@
     <!-- header -->
     <div data-role="header" data-position="fixed">
         <h1>Unterfranken</h1>
-        <a href="#landtag_berichte_bezirke" data-icon="arrow-l" data-direction="reverse"
-           data-transition="slide">Back</a>
+        <a href="#landtag_berichte_bezirke" data-icon="arrow-l" data-direction="reverse" data-transition="slide">Back</a>
         <!-- navbar -->
         <div data-role="navbar">
             <ul>
@@ -596,172 +521,154 @@
     <!-- /header -->
     <!-- content -->
     <div data-role="content">
-        <table class="float-right" summary="Infobox"
-               style="width:290px; font-size:90%; background:#FAFAFA; border:1px solid #bbb; margin:0px 0px 1em 1em; border-collapse:collapse;">
-            <tbody>
-            <tr>
-                <td colspan="2">
-                    <table class="nogrid" style="border:0px; border-collapse:collapse; width:100%;">
-                        <tbody>
-                        <tr>
-                            <td style="text-align:center;">
-                                <a class="image" title="Wappen"
-                                   href="/w/index.php?title=Datei:Unterfranken_Wappen.svg&filetimestamp=20100914131957">
-                                    <img width="100" height="111"
-                                         src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Unterfranken_Wappen.svg/100px-Unterfranken_Wappen.svg.png"
-                                         alt="Wappen">
-                                </a>
-                                <br>
-                                <small>Wappen</small>
-                            </td>
-                            <td style="text-align:center;">
-                                <a class="image" title="Flagge"
-                                   href="/w/index.php?title=Datei:Flag_of_Lower_Franconia.svg&filetimestamp=20100914132538">
-                                    <img class="thumbborder" width="149" height="94"
-                                         src="//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Flag_of_Lower_Franconia.svg/149px-Flag_of_Lower_Franconia.svg.png"
-                                         alt="Flagge">
-                                </a>
-                                <br>
-                                <small>Flagge</small>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px; border-top:solid 1px #bbb;">
-                    <a title="Staat" href="/wiki/Staat">Staat</a>
-                    :
-                </td>
-                <td style="border-left:0px; border-top:solid 1px #bbb;">
-                    <a title="Deutschland" href="/wiki/Deutschland">Deutschland</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px; border-top:solid 0px #bbb;">
-                    <a title="Land (Deutschland)" href="/wiki/Land_(Deutschland)">Bundesland</a>
-                    :
-                </td>
-                <td style="border-left:0px; border-top:solid 0px #bbb;">
-                    <a title="Bayern" href="/wiki/Bayern">Bayern</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">
-                    <a title="Verwaltungssitz" href="/wiki/Verwaltungssitz">Verwaltungssitz</a>
-                    :
-                </td>
-                <td>
-                    <a title="WÃ¼rzburg" href="/wiki/W%C3%BCrzburg">W&uuml;rzburg</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;" colspan="2">
-                    &nbsp;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Gr&ouml;&szlig;te St&auml;dte:</td>
-                <td>
-                    <small>1.</small>
-                    <a title="WÃ¼rzburg" href="/wiki/W%C3%BCrzburg">W&uuml;rzburg</a>
+    <table class="float-right" summary="Infobox" style="width:290px; font-size:90%; background:#FAFAFA; border:1px solid #bbb; margin:0px 0px 1em 1em; border-collapse:collapse;">
+        <tbody>
+        <tr>
+            <td colspan="2">
+                <table class="nogrid" style="border:0px; border-collapse:collapse; width:100%;">
+                    <tbody>
+                    <tr>
+                        <td style="text-align:center;">
+                            <a class="image" title="Wappen" href="/w/index.php?title=Datei:Unterfranken_Wappen.svg&filetimestamp=20100914131957">
+                                <img width="100" height="111" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Unterfranken_Wappen.svg/100px-Unterfranken_Wappen.svg.png" alt="Wappen">
+                            </a>
+                            <br>
+                            <small>Wappen</small>
+                        </td>
+                        <td style="text-align:center;">
+                            <a class="image" title="Flagge" href="/w/index.php?title=Datei:Flag_of_Lower_Franconia.svg&filetimestamp=20100914132538">
+                                <img class="thumbborder" width="149" height="94" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Flag_of_Lower_Franconia.svg/149px-Flag_of_Lower_Franconia.svg.png" alt="Flagge">
+                            </a>
+                            <br>
+                            <small>Flagge</small>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px; border-top:solid 1px #bbb;">
+                <a title="Staat" href="/wiki/Staat">Staat</a>
+                :
+            </td>
+            <td style="border-left:0px; border-top:solid 1px #bbb;">
+                <a title="Deutschland" href="/wiki/Deutschland">Deutschland</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px; border-top:solid 0px #bbb;">
+                <a title="Land (Deutschland)" href="/wiki/Land_(Deutschland)">Bundesland</a>
+                :
+            </td>
+            <td style="border-left:0px; border-top:solid 0px #bbb;">
+                <a title="Bayern" href="/wiki/Bayern">Bayern</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">
+                <a title="Verwaltungssitz" href="/wiki/Verwaltungssitz">Verwaltungssitz</a>
+                :
+            </td>
+            <td>
+                <a title="Würzburg" href="/wiki/W%C3%BCrzburg">W&uuml;rzburg</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;" colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Gr&ouml;&szlig;te St&auml;dte:</td>
+            <td>
+                <small>1.</small>
+                <a title="Würzburg" href="/wiki/W%C3%BCrzburg">W&uuml;rzburg</a>
+                <br>
+                <small>2.</small>
+                <a title="Aschaffenburg" href="/wiki/Aschaffenburg">Aschaffenburg</a>
+                <br>
+                <small>3.</small>
+                <a title="Schweinfurt" href="/wiki/Schweinfurt">Schweinfurt</a>
+                <br>
+                <small>4.</small>
+                <a title="Bad Kissingen" href="/wiki/Bad_Kissingen">Bad Kissingen</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;" colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">
+                <a title="Flächeninhalt" href="/wiki/Fl%C3%A4cheninhalt">Fl&auml;che</a>
+                :
+            </td>
+            <td>
+                8.530,99&nbsp;
+                <a title="Quadratmeter" href="/wiki/Quadratmeter#Quadratkilometer">km<sup>2</sup></a>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">
+                <a title="Einwohnerzahl" href="/wiki/Einwohnerzahl">Einwohner</a>
+                :
+            </td>
+            <td>
+                1.327.497
+                <small>
+                    <i>(31.12.2008)</i>
+                </small>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">
+                <a title="Bevölkerungsdichte" href="/wiki/Bev%C3%B6lkerungsdichte">Bev&ouml;lkerungsdichte</a>
+                :
+            </td>
+            <td>156 Einwohner je km<sup>2</sup></td>
+        </tr>
+        <tr>
+            <td style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;" colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Bezirkstagspr&auml;sident:</td>
+            <td>
+                <a title="Erwin Dotzel" href="/wiki/Erwin_Dotzel">Erwin Dotzel</a>
+                (
+                <a title="Christlich-Soziale Union in Bayern" href="/wiki/Christlich-Soziale_Union_in_Bayern">CSU</a>
+                )
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Regierungspr&auml;sident:</td>
+            <td>Paul Beinhofer</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">
+                <a class="mw-redirect" title="Webpräsenz" href="/wiki/Webpr%C3%A4senz">Webpr&auml;senz</a>
+                :
+            </td>
+            <td>
+                <div style="overflow: hidden;">
+                    <a class="external text" href="http://www.bezirk-unterfranken.de/" rel="nofollow">Bezirk</a>
                     <br>
-                    <small>2.</small>
-                    <a title="Aschaffenburg" href="/wiki/Aschaffenburg">Aschaffenburg</a>
-                    <br>
-                    <small>3.</small>
-                    <a title="Schweinfurt" href="/wiki/Schweinfurt">Schweinfurt</a>
-                    <br>
-                    <small>4.</small>
-                    <a title="Bad Kissingen" href="/wiki/Bad_Kissingen">Bad Kissingen</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;" colspan="2">
-                    &nbsp;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">
-                    <a title="FlÃ¤cheninhalt" href="/wiki/Fl%C3%A4cheninhalt">Fl&auml;che</a>
-                    :
-                </td>
-                <td>
-                    8.530,99&nbsp;
-                    <a title="Quadratmeter" href="/wiki/Quadratmeter#Quadratkilometer">km<sup>2</sup></a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">
-                    <a title="Einwohnerzahl" href="/wiki/Einwohnerzahl">Einwohner</a>
-                    :
-                </td>
-                <td>
-                    1.327.497
-                    <small>
-                        <i>(31.12.2008)</i>
-                    </small>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">
-                    <a title="BevÃ¶lkerungsdichte" href="/wiki/Bev%C3%B6lkerungsdichte">Bev&ouml;lkerungsdichte</a>
-                    :
-                </td>
-                <td>156 Einwohner je km<sup>2</sup></td>
-            </tr>
-            <tr>
-                <td style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;" colspan="2">
-                    &nbsp;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Bezirkstagspr&auml;sident:</td>
-                <td>
-                    <a title="Erwin Dotzel" href="/wiki/Erwin_Dotzel">Erwin Dotzel</a>
-                    (
-                    <a title="Christlich-Soziale Union in Bayern"
-                       href="/wiki/Christlich-Soziale_Union_in_Bayern">CSU</a>
-                    )
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Regierungspr&auml;sident:</td>
-                <td>Paul Beinhofer</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">
-                    <a class="mw-redirect" title="WebprÃ¤senz" href="/wiki/Webpr%C3%A4senz">Webpr&auml;senz</a>
-                    :
-                </td>
-                <td>
-                    <div style="overflow: hidden;">
-                        <a class="external text" href="http://www.bezirk-unterfranken.de/" rel="nofollow">Bezirk</a>
-                        <br>
-                        <a class="external text" href="http://www.regierung.unterfranken.bayern.de/" rel="nofollow">Regierung</a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td style="text-align:center;padding:3.5px;border-top:solid 1px #bbb;" colspan="2">
-                    <a class="image"
-                       href="/w/index.php?title=Datei:Locator_map_RB_Unterfranken_in_Bavaria.svg&filetimestamp=20090325181622">
-                        <img width="150" height="148"
-                             src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Locator_map_RB_Unterfranken_in_Bavaria.svg/150px-Locator_map_RB_Unterfranken_in_Bavaria.svg.png"
-                             alt="Locator map RB Unterfranken in Bavaria.svg">
-                    </a>
-                    <a class="image"
-                       href="/w/index.php?title=Datei:Locator_map_Unterfranken_in_Germany.svg&filetimestamp=20090324185415">
-                        <img width="125" height="148"
-                             src="//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Locator_map_Unterfranken_in_Germany.svg/125px-Locator_map_Unterfranken_in_Germany.svg.png"
-                             alt="Locator map Unterfranken in Germany.svg">
-                    </a>
-                    <br>
-                    <small>Lage in Bayern und Deutschland</small>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-    <!-- /content -->
+                    <a class="external text" href="http://www.regierung.unterfranken.bayern.de/" rel="nofollow">Regierung</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:center;padding:3.5px;border-top:solid 1px #bbb;" colspan="2">
+                <a class="image" href="/w/index.php?title=Datei:Locator_map_RB_Unterfranken_in_Bavaria.svg&filetimestamp=20090325181622">
+                    <img width="150" height="148" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Locator_map_RB_Unterfranken_in_Bavaria.svg/150px-Locator_map_RB_Unterfranken_in_Bavaria.svg.png" alt="Locator map RB Unterfranken in Bavaria.svg">
+                </a>
+                <a class="image" href="/w/index.php?title=Datei:Locator_map_Unterfranken_in_Germany.svg&filetimestamp=20090324185415">
+                    <img width="125" height="148" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Locator_map_Unterfranken_in_Germany.svg/125px-Locator_map_Unterfranken_in_Germany.svg.png" alt="Locator map Unterfranken in Germany.svg">
+                </a>
+                <br>
+                <small>Lage in Bayern und Deutschland</small>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>    <!-- /content -->
 </div>
 <!-- /Page -->
 <!-- landtag_berichte_bezirke_oberpfalz- Page -->
@@ -769,8 +676,7 @@
     <!-- header -->
     <div data-role="header" data-position="fixed">
         <h1>Oberpfalz</h1>
-        <a href="#landtag_berichte_bezirke" data-icon="arrow-l" data-direction="reverse"
-           data-transition="slide">Back</a>
+        <a href="#landtag_berichte_bezirke" data-icon="arrow-l" data-direction="reverse" data-transition="slide">Back</a>
         <!-- navbar -->
         <div data-role="navbar">
             <ul>
@@ -784,133 +690,80 @@
     <!-- /header -->
     <!-- content -->
     <div data-role="content">
-        <table class="float-right"
-               style="width:290px; font-size:90%; background:#FAFAFA; border:1px solid #bbb; margin:0px 0px 1em 1em; border-collapse:collapse;"
-               summary="Infobox">
-            <tr>
-                <td colspan="2">
-                    <table style="border:0px; border-collapse:collapse; width:100%;" class="nogrid">
-                        <tr>
-                            <td style="text-align:center;"><a
-                                    href="/w/index.php?title=Datei:Wappen_Operpfalz.svg&amp;filetimestamp=20100914125801"
-                                    class="image" title="Wappen"><img alt="Wappen"
-                                                                      src="//upload.wikimedia.org/wikipedia/commons/thumb/5/55/Wappen_Operpfalz.svg/100px-Wappen_Operpfalz.svg.png"
-                                                                      width="100" height="106"/></a><br/>
-                                <small>Wappen</small>
-                            </td>
-                            <td style="text-align:center;"><a
-                                    href="/w/index.php?title=Datei:Flagge_Oberpfalz.svg&amp;filetimestamp=20100915131847"
-                                    class="image" title="Flagge"><img alt="Flagge"
-                                                                      src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flagge_Oberpfalz.svg/149px-Flagge_Oberpfalz.svg.png"
-                                                                      width="149" height="89"
-                                                                      class="thumbborder"/></a><br/>
-                                <small>Flagge</small>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px; border-top:solid 1px #bbb;"><a href="/wiki/Staat"
-                                                                                              title="Staat">Staat</a>:
-                </td>
-                <td style="border-left:0px; border-top:solid 1px #bbb;"><a href="/wiki/Deutschland" title="Deutschland">Deutschland</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px; border-top:solid 0px #bbb;"><a
-                        href="/wiki/Land_(Deutschland)" title="Land (Deutschland)">Bundesland</a>:
-                </td>
-                <td style="border-left:0px; border-top:solid 0px #bbb;"><a href="/wiki/Bayern" title="Bayern">Bayern</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Verwaltungssitz" title="Verwaltungssitz">Verwaltungssitz</a>:
-                </td>
-                <td><a href="/wiki/Regensburg" title="Regensburg">Regensburg</a></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">
-                    &#160;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Gr&ouml;&szlig;te St&auml;dte:</td>
-                <td>
-                    <small>1.</small>
-                    <a href="/wiki/Regensburg" title="Regensburg">Regensburg</a><br/>
-                    <small>2.</small>
-                    <a href="/wiki/Amberg" title="Amberg">Amberg</a><br/>
-                    <small>3.</small>
-                    <a href="/wiki/Weiden_in_der_Oberpfalz" title="Weiden in der Oberpfalz">Weiden</a><br/>
-                    <small>4.</small>
-                    <a href="/wiki/Neumarkt_in_der_Oberpfalz" title="Neumarkt in der Oberpfalz">Neumarkt</a></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">
-                    &#160;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Fl%C3%A4cheninhalt"
-                                                                   title="Fl&auml;cheninhalt">Fl&auml;che</a>:
-                </td>
-                <td>9.691,03&#160;<a href="/wiki/Quadratmeter#Quadratkilometer" title="Quadratmeter">km<sup>2</sup></a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Einwohnerzahl" title="Einwohnerzahl">Einwohner</a>:
-                </td>
-                <td>1.081.417
-                    <small><i>(31.&#160;Dez.&#160;2009)</i></small>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Bev%C3%B6lkerungsdichte"
-                                                                   title="Bev&ouml;lkerungsdichte">Bev&ouml;lkerungsdichte</a>:
-                </td>
-                <td>112 Einwohner je km<sup>2</sup></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">
-                    &#160;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Bezirkstagspr&auml;sident:</td>
-                <td><a href="/wiki/Franz_L%C3%B6ffler" title="Franz L&ouml;ffler">Franz L&ouml;ffler</a> (<a
-                        href="/wiki/Christlich-Soziale_Union_in_Bayern"
-                        title="Christlich-Soziale Union in Bayern">CSU</a>)
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Regierungspr&auml;sidentin:</td>
-                <td>Brigitta Brunner</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Webpr%C3%A4senz" title="Webpr&auml;senz"
-                                                                   class="mw-redirect">Webpr&auml;senz</a>:
-                </td>
-                <td>
-                    <div style="overflow: hidden;"><a rel="nofollow" class="external text"
-                                                      href="http://www.bezirk-oberpfalz.de/">Bezirk</a><br/>
-                        <a rel="nofollow" class="external text" href="http://www.regierung.oberpfalz.bayern.de/">Regierung</a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="text-align:center;padding:3.5px;border-top:solid 1px #bbb;"><a
-                        href="/w/index.php?title=Datei:Locator_map_RB_Oberpfalz_in_Bavaria.svg&amp;filetimestamp=20090325181513"
-                        class="image"><img alt="Locator map RB Oberpfalz in Bavaria.svg"
-                                           src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Locator_map_RB_Oberpfalz_in_Bavaria.svg/150px-Locator_map_RB_Oberpfalz_in_Bavaria.svg.png"
-                                           width="150" height="148"/></a> <a
-                        href="/w/index.php?title=Datei:Locator_map_Oberpfalz_in_Germany.svg&amp;filetimestamp=20090324182312"
-                        class="image"><img alt="Locator map Oberpfalz in Germany.svg"
-                                           src="//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Locator_map_Oberpfalz_in_Germany.svg/125px-Locator_map_Oberpfalz_in_Germany.svg.png"
-                                           width="125" height="148"/></a><br/>
-                    <small>Lage in Bayern und Deutschland</small>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <!-- /content -->
+    <table class="float-right" style="width:290px; font-size:90%; background:#FAFAFA; border:1px solid #bbb; margin:0px 0px 1em 1em; border-collapse:collapse;" summary="Infobox">
+        <tr>
+            <td colspan="2">
+                <table style="border:0px; border-collapse:collapse; width:100%;" class="nogrid">
+                    <tr>
+                        <td style="text-align:center;"><a href="/w/index.php?title=Datei:Wappen_Operpfalz.svg&amp;filetimestamp=20100914125801" class="image" title="Wappen"><img alt="Wappen" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/55/Wappen_Operpfalz.svg/100px-Wappen_Operpfalz.svg.png" width="100" height="106" /></a><br />
+                            <small>Wappen</small></td>
+                        <td style="text-align:center;"><a href="/w/index.php?title=Datei:Flagge_Oberpfalz.svg&amp;filetimestamp=20100915131847" class="image" title="Flagge"><img alt="Flagge" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flagge_Oberpfalz.svg/149px-Flagge_Oberpfalz.svg.png" width="149" height="89" class="thumbborder" /></a><br />
+                            <small>Flagge</small></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px; border-top:solid 1px #bbb;"><a href="/wiki/Staat" title="Staat">Staat</a>:</td>
+            <td style="border-left:0px; border-top:solid 1px #bbb;"><a href="/wiki/Deutschland" title="Deutschland">Deutschland</a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px; border-top:solid 0px #bbb;"><a href="/wiki/Land_(Deutschland)" title="Land (Deutschland)">Bundesland</a>:</td>
+            <td style="border-left:0px; border-top:solid 0px #bbb;"><a href="/wiki/Bayern" title="Bayern">Bayern</a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Verwaltungssitz" title="Verwaltungssitz">Verwaltungssitz</a>:</td>
+            <td><a href="/wiki/Regensburg" title="Regensburg">Regensburg</a></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">&#160;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Gr&ouml;&szlig;te St&auml;dte:</td>
+            <td><small>1.</small> <a href="/wiki/Regensburg" title="Regensburg">Regensburg</a><br />
+                <small>2.</small> <a href="/wiki/Amberg" title="Amberg">Amberg</a><br />
+                <small>3.</small> <a href="/wiki/Weiden_in_der_Oberpfalz" title="Weiden in der Oberpfalz">Weiden</a><br />
+                <small>4.</small> <a href="/wiki/Neumarkt_in_der_Oberpfalz" title="Neumarkt in der Oberpfalz">Neumarkt</a></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">&#160;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Fl%C3%A4cheninhalt" title="Fl&auml;cheninhalt">Fl&auml;che</a>:</td>
+            <td>9.691,03&#160;<a href="/wiki/Quadratmeter#Quadratkilometer" title="Quadratmeter">km<sup>2</sup></a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Einwohnerzahl" title="Einwohnerzahl">Einwohner</a>:</td>
+            <td>1.081.417 <small><i>(31.&#160;Dez.&#160;2009)</i></small></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Bev%C3%B6lkerungsdichte" title="Bev&ouml;lkerungsdichte">Bev&ouml;lkerungsdichte</a>:</td>
+            <td>112 Einwohner je km<sup>2</sup></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">&#160;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Bezirkstagspr&auml;sident:</td>
+            <td><a href="/wiki/Franz_L%C3%B6ffler" title="Franz L&ouml;ffler">Franz L&ouml;ffler</a> (<a href="/wiki/Christlich-Soziale_Union_in_Bayern" title="Christlich-Soziale Union in Bayern">CSU</a>)</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Regierungspr&auml;sidentin:</td>
+            <td>Brigitta Brunner</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Webpr%C3%A4senz" title="Webpr&auml;senz" class="mw-redirect">Webpr&auml;senz</a>:</td>
+            <td>
+                <div style="overflow: hidden;"><a rel="nofollow" class="external text" href="http://www.bezirk-oberpfalz.de/">Bezirk</a><br />
+                    <a rel="nofollow" class="external text" href="http://www.regierung.oberpfalz.bayern.de/">Regierung</a></div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center;padding:3.5px;border-top:solid 1px #bbb;"><a href="/w/index.php?title=Datei:Locator_map_RB_Oberpfalz_in_Bavaria.svg&amp;filetimestamp=20090325181513" class="image"><img alt="Locator map RB Oberpfalz in Bavaria.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Locator_map_RB_Oberpfalz_in_Bavaria.svg/150px-Locator_map_RB_Oberpfalz_in_Bavaria.svg.png" width="150" height="148" /></a> <a href="/w/index.php?title=Datei:Locator_map_Oberpfalz_in_Germany.svg&amp;filetimestamp=20090324182312" class="image"><img alt="Locator map Oberpfalz in Germany.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Locator_map_Oberpfalz_in_Germany.svg/125px-Locator_map_Oberpfalz_in_Germany.svg.png" width="125" height="148" /></a><br />
+                <small>Lage in Bayern und Deutschland</small></td>
+        </tr>
+    </table>
+</div>    <!-- /content -->
 </div>
 <!-- /Page -->
 <!-- landtag_berichte_bezirke_oberbayern- Page -->
@@ -918,8 +771,7 @@
     <!-- header -->
     <div data-role="header" data-position="fixed">
         <h1>Oberbayern</h1>
-        <a href="#landtag_berichte_bezirke" data-icon="arrow-l" data-direction="reverse"
-           data-transition="slide">Back</a>
+        <a href="#landtag_berichte_bezirke" data-icon="arrow-l" data-direction="reverse" data-transition="slide">Back</a>
         <!-- navbar -->
         <div data-role="navbar">
             <ul>
@@ -933,132 +785,80 @@
     <!-- /header -->
     <!-- content -->
     <div data-role="content">
-        <table class="float-right"
-               style="width:290px; font-size:90%; background:#FAFAFA; border:1px solid #bbb; margin:0px 0px 1em 1em; border-collapse:collapse;"
-               summary="Infobox">
-            <tr>
-                <td colspan="2">
-                    <table style="border:0px; border-collapse:collapse; width:100%;" class="nogrid">
-                        <tr>
-                            <td style="text-align:center;"><a
-                                    href="/w/index.php?title=Datei:Wappen_Oberbayern.svg&amp;filetimestamp=20091224171233"
-                                    class="image" title="Wappen"><img alt="Wappen"
-                                                                      src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Wappen_Oberbayern.svg/100px-Wappen_Oberbayern.svg.png"
-                                                                      width="100" height="114"/></a><br/>
-                                <small>Wappen</small>
-                            </td>
-                            <td style="text-align:center;"><a
-                                    href="/w/index.php?title=Datei:Flagge_Oberbayern.svg&amp;filetimestamp=20100110175445"
-                                    class="image" title="Flagge"><img alt="Flagge"
-                                                                      src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flagge_Oberbayern.svg/149px-Flagge_Oberbayern.svg.png"
-                                                                      width="149" height="99"
-                                                                      class="thumbborder"/></a><br/>
-                                <small>Flagge</small>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px; border-top:solid 1px #bbb;"><a href="/wiki/Staat"
-                                                                                              title="Staat">Staat</a>:
-                </td>
-                <td style="border-left:0px; border-top:solid 1px #bbb;"><a href="/wiki/Deutschland" title="Deutschland">Deutschland</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px; border-top:solid 0px #bbb;"><a
-                        href="/wiki/Land_(Deutschland)" title="Land (Deutschland)">Bundesland</a>:
-                </td>
-                <td style="border-left:0px; border-top:solid 0px #bbb;"><a href="/wiki/Bayern" title="Bayern">Bayern</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Verwaltungssitz" title="Verwaltungssitz">Verwaltungssitz</a>:
-                </td>
-                <td><a href="/wiki/M%C3%BCnchen" title="MÃ¼nchen">M&uuml;nchen</a></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">
-                    &#160;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Gr&ouml;&szlig;te St&auml;dte:</td>
-                <td>
-                    <small>1.</small>
-                    <a href="/wiki/M%C3%BCnchen" title="MÃ¼nchen">M&uuml;nchen</a><br/>
-                    <small>2.</small>
-                    <a href="/wiki/Ingolstadt" title="Ingolstadt">Ingolstadt</a><br/>
-                    <small>3.</small>
-                    <a href="/wiki/Rosenheim" title="Rosenheim">Rosenheim</a><br/>
-                    <small>4.</small>
-                    <a href="/wiki/Freising" title="Freising">Freising</a></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">
-                    &#160;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Fl%C3%A4cheninhalt"
-                                                                   title="FlÃ¤cheninhalt">Fl&auml;che</a>:
-                </td>
-                <td>17.529,63&#160;<a href="/wiki/Quadratmeter#Quadratkilometer"
-                                      title="Quadratmeter">km<sup>2</sup></sup></a></td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Einwohnerzahl" title="Einwohnerzahl">Einwohner</a>:
-                </td>
-                <td>4.346.465
-                    <small><i>(31.12.2009)</i></small>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Bev%C3%B6lkerungsdichte"
-                                                                   title="BevÃ¶lkerungsdichte">Bev&ouml;lkerungsdichte</a>:
-                </td>
-                <td>248 Einwohner je km<sup>2</sup></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">
-                    &#160;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Bezirkstagspr&auml;sident:</td>
-                <td>Josef Mederer (<a href="/wiki/Christlich-Soziale_Union_in_Bayern"
-                                      title="Christlich-Soziale Union in Bayern">CSU</a>)
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Regierungspr&auml;sident:</td>
-                <td>Christoph Hillenbrand</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Webpr%C3%A4senz" title="WebprÃ¤senz"
-                                                                   class="mw-redirect">Webpr&auml;senz</a>:
-                </td>
-                <td>
-                    <div style="overflow: hidden;"><a rel="nofollow" class="external text"
-                                                      href="http://www.bezirk-oberbayern.de/">Bezirk</a><br/>
-                        <a rel="nofollow" class="external text" href="http://www.regierung.oberbayern.bayern.de/">Regierung</a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="text-align:center;padding:3.5px;border-top:solid 1px #bbb;"><a
-                        href="/w/index.php?title=Datei:Locator_map_RB_Oberbayern_in_Bavaria.svg&amp;filetimestamp=20090325181224"
-                        class="image"><img alt="Locator map RB Oberbayern in Bavaria.svg"
-                                           src="//upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Locator_map_RB_Oberbayern_in_Bavaria.svg/150px-Locator_map_RB_Oberbayern_in_Bavaria.svg.png"
-                                           width="150" height="148"/></a> <a
-                        href="/w/index.php?title=Datei:Locator_map_Oberbayern_in_Germany.svg&amp;filetimestamp=20090324182227"
-                        class="image"><img alt="Locator map Oberbayern in Germany.svg"
-                                           src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Locator_map_Oberbayern_in_Germany.svg/125px-Locator_map_Oberbayern_in_Germany.svg.png"
-                                           width="125" height="148"/></a><br/>
-                    <small>Lage in Bayern und Deutschland</small>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <!-- /content -->
+    <table class="float-right" style="width:290px; font-size:90%; background:#FAFAFA; border:1px solid #bbb; margin:0px 0px 1em 1em; border-collapse:collapse;" summary="Infobox">
+        <tr>
+            <td colspan="2">
+                <table style="border:0px; border-collapse:collapse; width:100%;" class="nogrid">
+                    <tr>
+                        <td style="text-align:center;"><a href="/w/index.php?title=Datei:Wappen_Oberbayern.svg&amp;filetimestamp=20091224171233" class="image" title="Wappen"><img alt="Wappen" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Wappen_Oberbayern.svg/100px-Wappen_Oberbayern.svg.png" width="100" height="114" /></a><br />
+                            <small>Wappen</small></td>
+                        <td style="text-align:center;"><a href="/w/index.php?title=Datei:Flagge_Oberbayern.svg&amp;filetimestamp=20100110175445" class="image" title="Flagge"><img alt="Flagge" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flagge_Oberbayern.svg/149px-Flagge_Oberbayern.svg.png" width="149" height="99" class="thumbborder" /></a><br />
+                            <small>Flagge</small></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px; border-top:solid 1px #bbb;"><a href="/wiki/Staat" title="Staat">Staat</a>:</td>
+            <td style="border-left:0px; border-top:solid 1px #bbb;"><a href="/wiki/Deutschland" title="Deutschland">Deutschland</a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px; border-top:solid 0px #bbb;"><a href="/wiki/Land_(Deutschland)" title="Land (Deutschland)">Bundesland</a>:</td>
+            <td style="border-left:0px; border-top:solid 0px #bbb;"><a href="/wiki/Bayern" title="Bayern">Bayern</a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Verwaltungssitz" title="Verwaltungssitz">Verwaltungssitz</a>:</td>
+            <td><a href="/wiki/M%C3%BCnchen" title="München">M&uuml;nchen</a></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">&#160;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Gr&ouml;&szlig;te St&auml;dte:</td>
+            <td><small>1.</small> <a href="/wiki/M%C3%BCnchen" title="München">M&uuml;nchen</a><br />
+                <small>2.</small> <a href="/wiki/Ingolstadt" title="Ingolstadt">Ingolstadt</a><br />
+                <small>3.</small> <a href="/wiki/Rosenheim" title="Rosenheim">Rosenheim</a><br />
+                <small>4.</small> <a href="/wiki/Freising" title="Freising">Freising</a></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">&#160;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Fl%C3%A4cheninhalt" title="Flächeninhalt">Fl&auml;che</a>:</td>
+            <td>17.529,63&#160;<a href="/wiki/Quadratmeter#Quadratkilometer" title="Quadratmeter">km<sup>2</sup></sup></a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Einwohnerzahl" title="Einwohnerzahl">Einwohner</a>:</td>
+            <td>4.346.465 <small><i>(31.12.2009)</i></small></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Bev%C3%B6lkerungsdichte" title="Bevölkerungsdichte">Bev&ouml;lkerungsdichte</a>:</td>
+            <td>248 Einwohner je km<sup>2</sup></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">&#160;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Bezirkstagspr&auml;sident:</td>
+            <td>Josef Mederer (<a href="/wiki/Christlich-Soziale_Union_in_Bayern" title="Christlich-Soziale Union in Bayern">CSU</a>)</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Regierungspr&auml;sident:</td>
+            <td>Christoph Hillenbrand</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Webpr%C3%A4senz" title="Webpräsenz" class="mw-redirect">Webpr&auml;senz</a>:</td>
+            <td>
+                <div style="overflow: hidden;"><a rel="nofollow" class="external text" href="http://www.bezirk-oberbayern.de/">Bezirk</a><br />
+                    <a rel="nofollow" class="external text" href="http://www.regierung.oberbayern.bayern.de/">Regierung</a></div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center;padding:3.5px;border-top:solid 1px #bbb;"><a href="/w/index.php?title=Datei:Locator_map_RB_Oberbayern_in_Bavaria.svg&amp;filetimestamp=20090325181224" class="image"><img alt="Locator map RB Oberbayern in Bavaria.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Locator_map_RB_Oberbayern_in_Bavaria.svg/150px-Locator_map_RB_Oberbayern_in_Bavaria.svg.png" width="150" height="148" /></a> <a href="/w/index.php?title=Datei:Locator_map_Oberbayern_in_Germany.svg&amp;filetimestamp=20090324182227" class="image"><img alt="Locator map Oberbayern in Germany.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Locator_map_Oberbayern_in_Germany.svg/125px-Locator_map_Oberbayern_in_Germany.svg.png" width="125" height="148" /></a><br />
+                <small>Lage in Bayern und Deutschland</small></td>
+        </tr>
+    </table>
+</div>    <!-- /content -->
 </div>
 <!-- /Page -->
 <!-- landtag_berichte_bezirke_niederbayern- Page -->
@@ -1066,8 +866,7 @@
     <!-- header -->
     <div data-role="header" data-position="fixed">
         <h1>Niederbayern</h1>
-        <a href="#landtag_berichte_bezirke" data-icon="arrow-l" data-direction="reverse"
-           data-transition="slide">Back</a>
+        <a href="#landtag_berichte_bezirke" data-icon="arrow-l" data-direction="reverse" data-transition="slide">Back</a>
         <!-- navbar -->
         <div data-role="navbar">
             <ul>
@@ -1081,132 +880,80 @@
     <!-- /header -->
     <!-- content -->
     <div data-role="content">
-        <table class="float-right"
-               style="width:290px; font-size:90%; background:#FAFAFA; border:1px solid #bbb; margin:0px 0px 1em 1em; border-collapse:collapse;"
-               summary="Infobox">
-            <tr>
-                <td colspan="2">
-                    <table style="border:0px; border-collapse:collapse; width:100%;" class="nogrid">
-                        <tr>
-                            <td style="text-align:center;"><a
-                                    href="/w/index.php?title=Datei:Wappen_Bezirk_Niederbayern.svg&amp;filetimestamp=20090306130916"
-                                    class="image" title="Wappen"><img alt="Wappen"
-                                                                      src="//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Wappen_Bezirk_Niederbayern.svg/100px-Wappen_Bezirk_Niederbayern.svg.png"
-                                                                      width="100" height="114"/></a><br/>
-                                <small>Wappen</small>
-                            </td>
-                            <td style="text-align:center;"><a
-                                    href="/w/index.php?title=Datei:Flag_of_Lower_Bavaria.svg&amp;filetimestamp=20100523075927"
-                                    class="image" title="Flagge"><img alt="Flagge"
-                                                                      src="//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Lower_Bavaria.svg/149px-Flag_of_Lower_Bavaria.svg.png"
-                                                                      width="149" height="99"
-                                                                      class="thumbborder"/></a><br/>
-                                <small>Flagge</small>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px; border-top:solid 1px #bbb;"><a href="/wiki/Staat"
-                                                                                              title="Staat">Staat</a>:
-                </td>
-                <td style="border-left:0px; border-top:solid 1px #bbb;"><a href="/wiki/Deutschland" title="Deutschland">Deutschland</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px; border-top:solid 0px #bbb;"><a
-                        href="/wiki/Land_(Deutschland)" title="Land (Deutschland)">Bundesland</a>:
-                </td>
-                <td style="border-left:0px; border-top:solid 0px #bbb;"><a href="/wiki/Bayern" title="Bayern">Bayern</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Verwaltungssitz" title="Verwaltungssitz">Verwaltungssitz</a>:
-                </td>
-                <td><a href="/wiki/Landshut" title="Landshut">Landshut</a></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">
-                    &#160;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Gr&ouml;&szlig;te St&auml;dte:</td>
-                <td>
-                    <small>1.</small>
-                    <a href="/wiki/Landshut" title="Landshut">Landshut</a><br/>
-                    <small>2.</small>
-                    <a href="/wiki/Passau" title="Passau">Passau</a><br/>
-                    <small>3.</small>
-                    <a href="/wiki/Straubing" title="Straubing">Straubing</a><br/>
-                    <small>4.</small>
-                    <a href="/wiki/Deggendorf" title="Deggendorf">Deggendorf</a></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">
-                    &#160;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Fl%C3%A4cheninhalt"
-                                                                   title="Fl&auml;cheninhalt">Fl&auml;che</a>:
-                </td>
-                <td>10.329,91&#160;<a href="/wiki/Quadratmeter#Quadratkilometer" title="Quadratmeter">km<sup>2</sup></a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Einwohnerzahl" title="Einwohnerzahl">Einwohner</a>:
-                </td>
-                <td>1.189.384
-                    <small><i>(31.12.2010)</i></small>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Bev%C3%B6lkerungsdichte"
-                                                                   title="Bev&ouml;lkerungsdichte">Bev&ouml;lkerungsdichte</a>:
-                </td>
-                <td>115 Einwohner je km<sup>2</sup></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">
-                    &#160;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Bezirkstagspr&auml;sident:</td>
-                <td>Manfred H&ouml;lzlein (<a href="/wiki/Christlich-Soziale_Union_in_Bayern"
-                                              title="Christlich-Soziale Union in Bayern">CSU</a>)
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Regierungspr&auml;sident:</td>
-                <td>Heinz Grunwald</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Webpr%C3%A4senz" title="Webpr&auml;senz"
-                                                                   class="mw-redirect">Webpr&auml;senz</a>:
-                </td>
-                <td>
-                    <div style="overflow: hidden;"><a rel="nofollow" class="external text"
-                                                      href="http://www.bezirk-niederbayern.de/">Bezirk</a><br/>
-                        <a rel="nofollow" class="external text" href="http://www.regierung.niederbayern.bayern.de/">Regierung</a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="text-align:center;padding:3.5px;border-top:solid 1px #bbb;"><a
-                        href="/w/index.php?title=Datei:Locator_map_RB_Niederbayern_in_Bavaria.svg&amp;filetimestamp=20090325181222"
-                        class="image"><img alt="Locator map RB Niederbayern in Bavaria.svg"
-                                           src="//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Locator_map_RB_Niederbayern_in_Bavaria.svg/150px-Locator_map_RB_Niederbayern_in_Bavaria.svg.png"
-                                           width="150" height="148"/></a> <a
-                        href="/w/index.php?title=Datei:Locator_map_Niederbayern_in_Germany.svg&amp;filetimestamp=20090327172928"
-                        class="image"><img alt="Locator map Niederbayern in Germany.svg"
-                                           src="//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Locator_map_Niederbayern_in_Germany.svg/125px-Locator_map_Niederbayern_in_Germany.svg.png"
-                                           width="125" height="148"/></a><br/>
-                    <small>Lage in Bayern und Deutschland</small>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <!-- /content -->
+    <table class="float-right" style="width:290px; font-size:90%; background:#FAFAFA; border:1px solid #bbb; margin:0px 0px 1em 1em; border-collapse:collapse;" summary="Infobox">
+        <tr>
+            <td colspan="2">
+                <table style="border:0px; border-collapse:collapse; width:100%;" class="nogrid">
+                    <tr>
+                        <td style="text-align:center;"><a href="/w/index.php?title=Datei:Wappen_Bezirk_Niederbayern.svg&amp;filetimestamp=20090306130916" class="image" title="Wappen"><img alt="Wappen" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Wappen_Bezirk_Niederbayern.svg/100px-Wappen_Bezirk_Niederbayern.svg.png" width="100" height="114" /></a><br />
+                            <small>Wappen</small></td>
+                        <td style="text-align:center;"><a href="/w/index.php?title=Datei:Flag_of_Lower_Bavaria.svg&amp;filetimestamp=20100523075927" class="image" title="Flagge"><img alt="Flagge" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Lower_Bavaria.svg/149px-Flag_of_Lower_Bavaria.svg.png" width="149" height="99" class="thumbborder" /></a><br />
+                            <small>Flagge</small></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px; border-top:solid 1px #bbb;"><a href="/wiki/Staat" title="Staat">Staat</a>:</td>
+            <td style="border-left:0px; border-top:solid 1px #bbb;"><a href="/wiki/Deutschland" title="Deutschland">Deutschland</a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px; border-top:solid 0px #bbb;"><a href="/wiki/Land_(Deutschland)" title="Land (Deutschland)">Bundesland</a>:</td>
+            <td style="border-left:0px; border-top:solid 0px #bbb;"><a href="/wiki/Bayern" title="Bayern">Bayern</a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Verwaltungssitz" title="Verwaltungssitz">Verwaltungssitz</a>:</td>
+            <td><a href="/wiki/Landshut" title="Landshut">Landshut</a></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">&#160;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Gr&ouml;&szlig;te St&auml;dte:</td>
+            <td><small>1.</small> <a href="/wiki/Landshut" title="Landshut">Landshut</a><br />
+                <small>2.</small> <a href="/wiki/Passau" title="Passau">Passau</a><br />
+                <small>3.</small> <a href="/wiki/Straubing" title="Straubing">Straubing</a><br />
+                <small>4.</small> <a href="/wiki/Deggendorf" title="Deggendorf">Deggendorf</a></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">&#160;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Fl%C3%A4cheninhalt" title="Fl&auml;cheninhalt">Fl&auml;che</a>:</td>
+            <td>10.329,91&#160;<a href="/wiki/Quadratmeter#Quadratkilometer" title="Quadratmeter">km<sup>2</sup></a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Einwohnerzahl" title="Einwohnerzahl">Einwohner</a>:</td>
+            <td>1.189.384 <small><i>(31.12.2010)</i></small></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Bev%C3%B6lkerungsdichte" title="Bev&ouml;lkerungsdichte">Bev&ouml;lkerungsdichte</a>:</td>
+            <td>115 Einwohner je km<sup>2</sup></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">&#160;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Bezirkstagspr&auml;sident:</td>
+            <td>Manfred H&ouml;lzlein (<a href="/wiki/Christlich-Soziale_Union_in_Bayern" title="Christlich-Soziale Union in Bayern">CSU</a>)</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Regierungspr&auml;sident:</td>
+            <td>Heinz Grunwald</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Webpr%C3%A4senz" title="Webpr&auml;senz" class="mw-redirect">Webpr&auml;senz</a>:</td>
+            <td>
+                <div style="overflow: hidden;"><a rel="nofollow" class="external text" href="http://www.bezirk-niederbayern.de/">Bezirk</a><br />
+                    <a rel="nofollow" class="external text" href="http://www.regierung.niederbayern.bayern.de/">Regierung</a></div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center;padding:3.5px;border-top:solid 1px #bbb;"><a href="/w/index.php?title=Datei:Locator_map_RB_Niederbayern_in_Bavaria.svg&amp;filetimestamp=20090325181222" class="image"><img alt="Locator map RB Niederbayern in Bavaria.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Locator_map_RB_Niederbayern_in_Bavaria.svg/150px-Locator_map_RB_Niederbayern_in_Bavaria.svg.png" width="150" height="148" /></a> <a href="/w/index.php?title=Datei:Locator_map_Niederbayern_in_Germany.svg&amp;filetimestamp=20090327172928" class="image"><img alt="Locator map Niederbayern in Germany.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Locator_map_Niederbayern_in_Germany.svg/125px-Locator_map_Niederbayern_in_Germany.svg.png" width="125" height="148" /></a><br />
+                <small>Lage in Bayern und Deutschland</small></td>
+        </tr>
+    </table>
+</div>    <!-- /content -->
 </div>
 <!-- /Page -->
 <!-- landtag_berichte_bezirke_mittelfranken- Page -->
@@ -1214,8 +961,7 @@
     <!-- header -->
     <div data-role="header" data-position="fixed">
         <h1>Mittelfranken</h1>
-        <a href="#landtag_berichte_bezirke" data-icon="arrow-l" data-direction="reverse"
-           data-transition="slide">Back</a>
+        <a href="#landtag_berichte_bezirke" data-icon="arrow-l" data-direction="reverse" data-transition="slide">Back</a>
         <!-- navbar -->
         <div data-role="navbar">
             <ul>
@@ -1229,133 +975,80 @@
     <!-- /header -->
     <!-- content -->
     <div data-role="content">
-        <table class="float-right"
-               style="width:290px; font-size:90%; background:#FAFAFA; border:1px solid #bbb; margin:0px 0px 1em 1em; border-collapse:collapse;"
-               summary="Infobox">
-            <tr>
-                <td colspan="2">
-                    <table style="border:0px; border-collapse:collapse; width:100%;" class="nogrid">
-                        <tr>
-                            <td style="text-align:center;"><a
-                                    href="/w/index.php?title=Datei:Mittelfranken_Wappen.svg&amp;filetimestamp=20070319222358"
-                                    class="image" title="Wappen"><img alt="Wappen"
-                                                                      src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Mittelfranken_Wappen.svg/100px-Mittelfranken_Wappen.svg.png"
-                                                                      width="100" height="113"/></a><br/>
-                                <small>Wappen</small>
-                            </td>
-                            <td style="text-align:center;"><a
-                                    href="/w/index.php?title=Datei:Flag_of_Middle_Franconia.svg&amp;filetimestamp=20100519042328"
-                                    class="image" title="Flagge"><img alt="Flagge"
-                                                                      src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Middle_Franconia.svg/149px-Flag_of_Middle_Franconia.svg.png"
-                                                                      width="149" height="100" class="thumbborder"/></a><br/>
-                                <small>Flagge</small>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px; border-top:solid 1px #bbb;"><a href="/wiki/Staat"
-                                                                                              title="Staat">Staat</a>:
-                </td>
-                <td style="border-left:0px; border-top:solid 1px #bbb;"><a href="/wiki/Deutschland" title="Deutschland">Deutschland</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px; border-top:solid 0px #bbb;"><a
-                        href="/wiki/Land_(Deutschland)" title="Land (Deutschland)">Bundesland</a>:
-                </td>
-                <td style="border-left:0px; border-top:solid 0px #bbb;"><a href="/wiki/Bayern" title="Bayern">Bayern</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Verwaltungssitz" title="Verwaltungssitz">Verwaltungssitz</a>:
-                </td>
-                <td><a href="/wiki/Ansbach" title="Ansbach">Ansbach</a></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">
-                    &#160;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Gr&ouml;&szlig;te St&auml;dte:</td>
-                <td>
-                    <small>1.</small>
-                    <a href="/wiki/N%C3%BCrnberg" title="N&uuml;rnberg">N&uuml;rnberg</a><br/>
-                    <small>2.</small>
-                    <a href="/wiki/F%C3%BCrth" title="F&uuml;rth">F&uuml;rth</a><br/>
-                    <small>3.</small>
-                    <a href="/wiki/Erlangen" title="Erlangen">Erlangen</a><br/>
-                    <small>4.</small>
-                    <a href="/wiki/Ansbach" title="Ansbach">Ansbach</a></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">
-                    &#160;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Fl%C3%A4cheninhalt"
-                                                                   title="Fl&auml;cheninhalt">Fl&auml;che</a>:
-                </td>
-                <td>7.244,85&#160;<a href="/wiki/Quadratmeter#Quadratkilometer" title="Quadratmeter">km<sup>2</sup></a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Einwohnerzahl" title="Einwohnerzahl">Einwohner</a>:
-                </td>
-                <td>1.712.405
-                    <small><i>(31.12.2008)</i></small>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Bev%C3%B6lkerungsdichte"
-                                                                   title="Bev&ouml;lkerungsdichte">Bev&ouml;lkerungsdichte</a>:
-                </td>
-                <td>236 Einwohner je km<sup>2</sup></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">
-                    &#160;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Bezirkstagspr&auml;sident:</td>
-                <td><a href="/wiki/Richard_Bartsch" title="Richard Bartsch">Richard Bartsch</a> (<a
-                        href="/wiki/Christlich-Soziale_Union_in_Bayern"
-                        title="Christlich-Soziale Union in Bayern">CSU</a>)
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Regierungspr&auml;sident:</td>
-                <td><a href="/wiki/Thomas_Bauer_(N%C3%BCrnberg)" title="Thomas Bauer (N&uuml;rnberg)">Thomas Bauer</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Webpr%C3%A4senz" title="Webpr&auml;senz"
-                                                                   class="mw-redirect">Webpr&auml;senz</a>:
-                </td>
-                <td>
-                    <div style="overflow: hidden;"><a rel="nofollow" class="external text"
-                                                      href="http://www.bezirk-mittelfranken.de/">Bezirk</a><br/>
-                        <a rel="nofollow" class="external text" href="http://www.regierung.mittelfranken.bayern.de/">Regierung</a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="text-align:center;padding:3.5px;border-top:solid 1px #bbb;"><a
-                        href="/w/index.php?title=Datei:Locator_map_RB_Mittelfranken_in_Bavaria.svg&amp;filetimestamp=20090325181119"
-                        class="image"><img alt="Locator map RB Mittelfranken in Bavaria.svg"
-                                           src="//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Locator_map_RB_Mittelfranken_in_Bavaria.svg/150px-Locator_map_RB_Mittelfranken_in_Bavaria.svg.png"
-                                           width="150" height="148"/></a> <a
-                        href="/w/index.php?title=Datei:Locator_map_Mittelfranken_in_Germany.svg&amp;filetimestamp=20090324174834"
-                        class="image"><img alt="Locator map Mittelfranken in Germany.svg"
-                                           src="//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Locator_map_Mittelfranken_in_Germany.svg/125px-Locator_map_Mittelfranken_in_Germany.svg.png"
-                                           width="125" height="148"/></a><br/>
-                    <small>Lage in Bayern und Deutschland</small>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <!-- /content -->
+    <table class="float-right" style="width:290px; font-size:90%; background:#FAFAFA; border:1px solid #bbb; margin:0px 0px 1em 1em; border-collapse:collapse;" summary="Infobox">
+        <tr>
+            <td colspan="2">
+                <table style="border:0px; border-collapse:collapse; width:100%;" class="nogrid">
+                    <tr>
+                        <td style="text-align:center;"><a href="/w/index.php?title=Datei:Mittelfranken_Wappen.svg&amp;filetimestamp=20070319222358" class="image" title="Wappen"><img alt="Wappen" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Mittelfranken_Wappen.svg/100px-Mittelfranken_Wappen.svg.png" width="100" height="113" /></a><br />
+                            <small>Wappen</small></td>
+                        <td style="text-align:center;"><a href="/w/index.php?title=Datei:Flag_of_Middle_Franconia.svg&amp;filetimestamp=20100519042328" class="image" title="Flagge"><img alt="Flagge" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Middle_Franconia.svg/149px-Flag_of_Middle_Franconia.svg.png" width="149" height="100" class="thumbborder" /></a><br />
+                            <small>Flagge</small></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px; border-top:solid 1px #bbb;"><a href="/wiki/Staat" title="Staat">Staat</a>:</td>
+            <td style="border-left:0px; border-top:solid 1px #bbb;"><a href="/wiki/Deutschland" title="Deutschland">Deutschland</a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px; border-top:solid 0px #bbb;"><a href="/wiki/Land_(Deutschland)" title="Land (Deutschland)">Bundesland</a>:</td>
+            <td style="border-left:0px; border-top:solid 0px #bbb;"><a href="/wiki/Bayern" title="Bayern">Bayern</a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Verwaltungssitz" title="Verwaltungssitz">Verwaltungssitz</a>:</td>
+            <td><a href="/wiki/Ansbach" title="Ansbach">Ansbach</a></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">&#160;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Gr&ouml;&szlig;te St&auml;dte:</td>
+            <td><small>1.</small> <a href="/wiki/N%C3%BCrnberg" title="N&uuml;rnberg">N&uuml;rnberg</a><br />
+                <small>2.</small> <a href="/wiki/F%C3%BCrth" title="F&uuml;rth">F&uuml;rth</a><br />
+                <small>3.</small> <a href="/wiki/Erlangen" title="Erlangen">Erlangen</a><br />
+                <small>4.</small> <a href="/wiki/Ansbach" title="Ansbach">Ansbach</a></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">&#160;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Fl%C3%A4cheninhalt" title="Fl&auml;cheninhalt">Fl&auml;che</a>:</td>
+            <td>7.244,85&#160;<a href="/wiki/Quadratmeter#Quadratkilometer" title="Quadratmeter">km<sup>2</sup></a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Einwohnerzahl" title="Einwohnerzahl">Einwohner</a>:</td>
+            <td>1.712.405 <small><i>(31.12.2008)</i></small></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Bev%C3%B6lkerungsdichte" title="Bev&ouml;lkerungsdichte">Bev&ouml;lkerungsdichte</a>:</td>
+            <td>236 Einwohner je km<sup>2</sup></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">&#160;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Bezirkstagspr&auml;sident:</td>
+            <td><a href="/wiki/Richard_Bartsch" title="Richard Bartsch">Richard Bartsch</a> (<a href="/wiki/Christlich-Soziale_Union_in_Bayern" title="Christlich-Soziale Union in Bayern">CSU</a>)</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Regierungspr&auml;sident:</td>
+            <td><a href="/wiki/Thomas_Bauer_(N%C3%BCrnberg)" title="Thomas Bauer (N&uuml;rnberg)">Thomas Bauer</a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Webpr%C3%A4senz" title="Webpr&auml;senz" class="mw-redirect">Webpr&auml;senz</a>:</td>
+            <td>
+                <div style="overflow: hidden;"><a rel="nofollow" class="external text" href="http://www.bezirk-mittelfranken.de/">Bezirk</a><br />
+                    <a rel="nofollow" class="external text" href="http://www.regierung.mittelfranken.bayern.de/">Regierung</a></div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center;padding:3.5px;border-top:solid 1px #bbb;"><a href="/w/index.php?title=Datei:Locator_map_RB_Mittelfranken_in_Bavaria.svg&amp;filetimestamp=20090325181119" class="image"><img alt="Locator map RB Mittelfranken in Bavaria.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Locator_map_RB_Mittelfranken_in_Bavaria.svg/150px-Locator_map_RB_Mittelfranken_in_Bavaria.svg.png" width="150" height="148" /></a> <a href="/w/index.php?title=Datei:Locator_map_Mittelfranken_in_Germany.svg&amp;filetimestamp=20090324174834" class="image"><img alt="Locator map Mittelfranken in Germany.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Locator_map_Mittelfranken_in_Germany.svg/125px-Locator_map_Mittelfranken_in_Germany.svg.png" width="125" height="148" /></a><br />
+                <small>Lage in Bayern und Deutschland</small></td>
+        </tr>
+    </table>
+</div>    <!-- /content -->
 </div>
 <!-- /Page -->
 <!-- landtag_berichte_bezirke_schwaben- Page -->
@@ -1363,8 +1056,7 @@
     <!-- header -->
     <div data-role="header" data-position="fixed">
         <h1>Schwaben</h1>
-        <a href="#landtag_berichte_bezirke" data-icon="arrow-l" data-direction="reverse"
-           data-transition="slide">Back</a>
+        <a href="#landtag_berichte_bezirke" data-icon="arrow-l" data-direction="reverse" data-transition="slide">Back</a>
         <!-- navbar -->
         <div data-role="navbar">
             <ul>
@@ -1378,133 +1070,80 @@
     <!-- /header -->
     <!-- content -->
     <div data-role="content">
-        <table class="float-right"
-               style="width:290px; font-size:90%; background:#FAFAFA; border:1px solid #bbb; margin:0px 0px 1em 1em; border-collapse:collapse;"
-               summary="Infobox">
-            <tr>
-                <td colspan="2">
-                    <table style="border:0px; border-collapse:collapse; width:100%;" class="nogrid">
-                        <tr>
-                            <td style="text-align:center;"><a
-                                    href="/w/index.php?title=Datei:Wappen_Schwaben_Bayern.svg&amp;filetimestamp=20100914143031"
-                                    class="image" title="Wappen"><img alt="Wappen"
-                                                                      src="//upload.wikimedia.org/wikipedia/commons/thumb/5/55/Wappen_Schwaben_Bayern.svg/100px-Wappen_Schwaben_Bayern.svg.png"
-                                                                      width="100" height="119"/></a><br/>
-                                <small>Wappen</small>
-                            </td>
-                            <td style="text-align:center;"><a
-                                    href="/w/index.php?title=Datei:Flagge_Schwaben_Bayern.svg&amp;filetimestamp=20100914144638"
-                                    class="image" title="Flagge"><img alt="Flagge"
-                                                                      src="//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flagge_Schwaben_Bayern.svg/149px-Flagge_Schwaben_Bayern.svg.png"
-                                                                      width="149" height="93"
-                                                                      class="thumbborder"/></a><br/>
-                                <small>Flagge</small>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px; border-top:solid 1px #bbb;"><a href="/wiki/Staat"
-                                                                                              title="Staat">Staat</a>:
-                </td>
-                <td style="border-left:0px; border-top:solid 1px #bbb;"><a href="/wiki/Deutschland" title="Deutschland">Deutschland</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px; border-top:solid 0px #bbb;"><a
-                        href="/wiki/Land_(Deutschland)" title="Land (Deutschland)">Bundesland</a>:
-                </td>
-                <td style="border-left:0px; border-top:solid 0px #bbb;"><a href="/wiki/Bayern" title="Bayern">Bayern</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Verwaltungssitz" title="Verwaltungssitz">Verwaltungssitz</a>:
-                </td>
-                <td><a href="/wiki/Augsburg" title="Augsburg">Augsburg</a></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">
-                    &#160;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Gr&ouml;&szlig;te St&auml;dte:</td>
-                <td>
-                    <small>1.</small>
-                    <a href="/wiki/Augsburg" title="Augsburg">Augsburg</a><br/>
-                    <small>2.</small>
-                    <a href="/wiki/Kempten" title="Kempten" class="mw-redirect">Kempten</a><br/>
-                    <small>3.</small>
-                    <a href="/wiki/Neu-Ulm" title="Neu-Ulm">Neu-Ulm</a><br/>
-                    <small>4.</small>
-                    <a href="/wiki/Kaufbeuren" title="Kaufbeuren">Kaufbeuren</a></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">
-                    &#160;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Fl%C3%A4cheninhalt"
-                                                                   title="FlÃ¤cheninhalt">Fl&auml;che</a>:
-                </td>
-                <td>9.992,03&#160;<a href="/wiki/Quadratmeter#Quadratkilometer" title="Quadratmeter">km<sup>2</sup></a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Einwohnerzahl" title="Einwohnerzahl">Einwohner</a>:
-                </td>
-                <td>1.786.483
-                    <small><i>(31.12.2008)</i></small>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Bev%C3%B6lkerungsdichte"
-                                                                   title="BevÃ¶lkerungsdichte">Bev&ouml;lkerungsdichte</a>:
-                </td>
-                <td>179 Einwohner je km<sup>2</sup></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">
-                    &#160;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Bezirkstagspr&auml;sident:</td>
-                <td>J&uuml;rgen Reichert (<a href="/wiki/Christlich-Soziale_Union_in_Bayern"
-                                             title="Christlich-Soziale Union in Bayern">CSU</a>)
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Regierungspr&auml;sident:</td>
-                <td><a href="/wiki/Karl_Michael_Scheufele" title="Karl Michael Scheufele">Karl Michael Scheufele</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Webpr%C3%A4senz" title="WebprÃ¤senz"
-                                                                   class="mw-redirect">Webpr&auml;senz</a>:
-                </td>
-                <td>
-                    <div style="overflow: hidden;"><a rel="nofollow" class="external text"
-                                                      href="http://www.bezirk-schwaben.de/">Bezirk</a><br/>
-                        <a rel="nofollow" class="external text" href="http://www.regierung.schwaben.bayern.de/">Regierung</a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="text-align:center;padding:3.5px;border-top:solid 1px #bbb;"><a
-                        href="/w/index.php?title=Datei:Locator_map_RB_Schwaben_in_Bavaria.svg&amp;filetimestamp=20090325181619"
-                        class="image"><img alt="Locator map RB Schwaben in Bavaria.svg"
-                                           src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Locator_map_RB_Schwaben_in_Bavaria.svg/150px-Locator_map_RB_Schwaben_in_Bavaria.svg.png"
-                                           width="150" height="148"/></a> <a
-                        href="/w/index.php?title=Datei:Locator_map_Schwaben_in_Germany.svg&amp;filetimestamp=20090324182653"
-                        class="image"><img alt="Locator map Schwaben in Germany.svg"
-                                           src="//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Locator_map_Schwaben_in_Germany.svg/125px-Locator_map_Schwaben_in_Germany.svg.png"
-                                           width="125" height="148"/></a><br/>
-                    <small>Lage in Bayern und Deutschland</small>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <!-- /content -->
+    <table class="float-right" style="width:290px; font-size:90%; background:#FAFAFA; border:1px solid #bbb; margin:0px 0px 1em 1em; border-collapse:collapse;" summary="Infobox">
+        <tr>
+            <td colspan="2">
+                <table style="border:0px; border-collapse:collapse; width:100%;" class="nogrid">
+                    <tr>
+                        <td style="text-align:center;"><a href="/w/index.php?title=Datei:Wappen_Schwaben_Bayern.svg&amp;filetimestamp=20100914143031" class="image" title="Wappen"><img alt="Wappen" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/55/Wappen_Schwaben_Bayern.svg/100px-Wappen_Schwaben_Bayern.svg.png" width="100" height="119" /></a><br />
+                            <small>Wappen</small></td>
+                        <td style="text-align:center;"><a href="/w/index.php?title=Datei:Flagge_Schwaben_Bayern.svg&amp;filetimestamp=20100914144638" class="image" title="Flagge"><img alt="Flagge" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flagge_Schwaben_Bayern.svg/149px-Flagge_Schwaben_Bayern.svg.png" width="149" height="93" class="thumbborder" /></a><br />
+                            <small>Flagge</small></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px; border-top:solid 1px #bbb;"><a href="/wiki/Staat" title="Staat">Staat</a>:</td>
+            <td style="border-left:0px; border-top:solid 1px #bbb;"><a href="/wiki/Deutschland" title="Deutschland">Deutschland</a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px; border-top:solid 0px #bbb;"><a href="/wiki/Land_(Deutschland)" title="Land (Deutschland)">Bundesland</a>:</td>
+            <td style="border-left:0px; border-top:solid 0px #bbb;"><a href="/wiki/Bayern" title="Bayern">Bayern</a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Verwaltungssitz" title="Verwaltungssitz">Verwaltungssitz</a>:</td>
+            <td><a href="/wiki/Augsburg" title="Augsburg">Augsburg</a></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">&#160;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Gr&ouml;&szlig;te St&auml;dte:</td>
+            <td><small>1.</small> <a href="/wiki/Augsburg" title="Augsburg">Augsburg</a><br />
+                <small>2.</small> <a href="/wiki/Kempten" title="Kempten" class="mw-redirect">Kempten</a><br />
+                <small>3.</small> <a href="/wiki/Neu-Ulm" title="Neu-Ulm">Neu-Ulm</a><br />
+                <small>4.</small> <a href="/wiki/Kaufbeuren" title="Kaufbeuren">Kaufbeuren</a></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">&#160;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Fl%C3%A4cheninhalt" title="Flächeninhalt">Fl&auml;che</a>:</td>
+            <td>9.992,03&#160;<a href="/wiki/Quadratmeter#Quadratkilometer" title="Quadratmeter">km<sup>2</sup></a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Einwohnerzahl" title="Einwohnerzahl">Einwohner</a>:</td>
+            <td>1.786.483 <small><i>(31.12.2008)</i></small></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Bev%C3%B6lkerungsdichte" title="Bevölkerungsdichte">Bev&ouml;lkerungsdichte</a>:</td>
+            <td>179 Einwohner je km<sup>2</sup></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">&#160;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Bezirkstagspr&auml;sident:</td>
+            <td>J&uuml;rgen Reichert (<a href="/wiki/Christlich-Soziale_Union_in_Bayern" title="Christlich-Soziale Union in Bayern">CSU</a>)</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Regierungspr&auml;sident:</td>
+            <td><a href="/wiki/Karl_Michael_Scheufele" title="Karl Michael Scheufele">Karl Michael Scheufele</a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Webpr%C3%A4senz" title="Webpräsenz" class="mw-redirect">Webpr&auml;senz</a>:</td>
+            <td>
+                <div style="overflow: hidden;"><a rel="nofollow" class="external text" href="http://www.bezirk-schwaben.de/">Bezirk</a><br />
+                    <a rel="nofollow" class="external text" href="http://www.regierung.schwaben.bayern.de/">Regierung</a></div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center;padding:3.5px;border-top:solid 1px #bbb;"><a href="/w/index.php?title=Datei:Locator_map_RB_Schwaben_in_Bavaria.svg&amp;filetimestamp=20090325181619" class="image"><img alt="Locator map RB Schwaben in Bavaria.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Locator_map_RB_Schwaben_in_Bavaria.svg/150px-Locator_map_RB_Schwaben_in_Bavaria.svg.png" width="150" height="148" /></a> <a href="/w/index.php?title=Datei:Locator_map_Schwaben_in_Germany.svg&amp;filetimestamp=20090324182653" class="image"><img alt="Locator map Schwaben in Germany.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Locator_map_Schwaben_in_Germany.svg/125px-Locator_map_Schwaben_in_Germany.svg.png" width="125" height="148" /></a><br />
+                <small>Lage in Bayern und Deutschland</small></td>
+        </tr>
+    </table>
+</div>    <!-- /content -->
 </div>
 <!-- /Page -->
 <!-- landtag_berichte_bezirke_oberfranken- Page -->
@@ -1512,8 +1151,7 @@
     <!-- header -->
     <div data-role="header" data-position="fixed">
         <h1>Oberfranken</h1>
-        <a href="#landtag_berichte_bezirke" data-icon="arrow-l" data-direction="reverse"
-           data-transition="slide">Back</a>
+        <a href="#landtag_berichte_bezirke" data-icon="arrow-l" data-direction="reverse" data-transition="slide">Back</a>
         <!-- navbar -->
         <div data-role="navbar">
             <ul>
@@ -1527,133 +1165,80 @@
     <!-- /header -->
     <!-- content -->
     <div data-role="content">
-        <table class="float-right"
-               style="width:290px; font-size:90%; background:#FAFAFA; border:1px solid #bbb; margin:0px 0px 1em 1em; border-collapse:collapse;"
-               summary="Infobox">
-            <tr>
-                <td colspan="2">
-                    <table style="border:0px; border-collapse:collapse; width:100%;" class="nogrid">
-                        <tr>
-                            <td style="text-align:center;"><a
-                                    href="/w/index.php?title=Datei:Wappen_Bezirk_Oberfranken2.svg&amp;filetimestamp=20100914122813"
-                                    class="image" title="Wappen"><img alt="Wappen"
-                                                                      src="//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Wappen_Bezirk_Oberfranken2.svg/100px-Wappen_Bezirk_Oberfranken2.svg.png"
-                                                                      width="100" height="100"/></a><br/>
-                                <small>Wappen</small>
-                            </td>
-                            <td style="text-align:center;"><a
-                                    href="/w/index.php?title=Datei:Flagge_Oberfranken.svg&amp;filetimestamp=20100914123555"
-                                    class="image" title="Flagge"><img alt="Flagge"
-                                                                      src="//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flagge_Oberfranken.svg/149px-Flagge_Oberfranken.svg.png"
-                                                                      width="149" height="89"
-                                                                      class="thumbborder"/></a><br/>
-                                <small>Flagge</small>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px; border-top:solid 1px #bbb;"><a href="/wiki/Staat"
-                                                                                              title="Staat">Staat</a>:
-                </td>
-                <td style="border-left:0px; border-top:solid 1px #bbb;"><a href="/wiki/Deutschland" title="Deutschland">Deutschland</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px; border-top:solid 0px #bbb;"><a
-                        href="/wiki/Land_(Deutschland)" title="Land (Deutschland)">Bundesland</a>:
-                </td>
-                <td style="border-left:0px; border-top:solid 0px #bbb;"><a href="/wiki/Bayern" title="Bayern">Bayern</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Verwaltungssitz" title="Verwaltungssitz">Verwaltungssitz</a>:
-                </td>
-                <td><a href="/wiki/Bayreuth" title="Bayreuth">Bayreuth</a></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">
-                    &#160;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Gr&ouml;&szlig;te St&auml;dte:</td>
-                <td>
-                    <small>1.</small>
-                    <a href="/wiki/Bayreuth" title="Bayreuth">Bayreuth</a><br/>
-                    <small>2.</small>
-                    <a href="/wiki/Bamberg" title="Bamberg">Bamberg</a><br/>
-                    <small>3.</small>
-                    <a href="/wiki/Hof_(Saale)" title="Hof (Saale)">Hof</a><br/>
-                    <small>4.</small>
-                    <a href="/wiki/Coburg" title="Coburg">Coburg</a></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">
-                    &#160;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Fl%C3%A4cheninhalt"
-                                                                   title="FlÃ¤cheninhalt">Fl&auml;che</a>:
-                </td>
-                <td>7.231,41&#160;<a href="/wiki/Quadratmeter#Quadratkilometer" title="Quadratmeter">km<sup>2</sup></a>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Einwohnerzahl" title="Einwohnerzahl">Einwohner</a>:
-                </td>
-                <td>1.082.516
-                    <small><i>(31.12.2008)</i></small>
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Bev%C3%B6lkerungsdichte"
-                                                                   title="BevÃ¶lkerungsdichte">Bev&ouml;lkerungsdichte</a>:
-                </td>
-                <td>150 Einwohner je km<sup>2</sup></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">
-                    &#160;</td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Bezirkstagspr&auml;sident:</td>
-                <td><a href="/wiki/G%C3%BCnther_Denzler" title="GÃ¼nther Denzler">G&uuml;nther Denzler</a> (<a
-                        href="/wiki/Christlich-Soziale_Union_in_Bayern"
-                        title="Christlich-Soziale Union in Bayern">CSU</a>)
-                </td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;">Regierungspr&auml;sident:</td>
-                <td><a href="/wiki/Wilhelm_Wenning" title="Wilhelm Wenning">Wilhelm Wenning</a></td>
-            </tr>
-            <tr>
-                <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Webpr%C3%A4senz" title="WebprÃ¤senz"
-                                                                   class="mw-redirect">Webpr&auml;senz</a>:
-                </td>
-                <td>
-                    <div style="overflow: hidden;"><a rel="nofollow" class="external text"
-                                                      href="http://www.bezirk-oberfranken.de/">Bezirk</a><br/>
-                        <a rel="nofollow" class="external text" href="http://www.regierung.oberfranken.bayern.de/">Regierung</a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="text-align:center;padding:3.5px;border-top:solid 1px #bbb;"><a
-                        href="/w/index.php?title=Datei:Locator_map_RB_Oberfranken_in_Bavaria.svg&amp;filetimestamp=20090325181349"
-                        class="image"><img alt="Locator map RB Oberfranken in Bavaria.svg"
-                                           src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Locator_map_RB_Oberfranken_in_Bavaria.svg/150px-Locator_map_RB_Oberfranken_in_Bavaria.svg.png"
-                                           width="150" height="148"/></a> <a
-                        href="/w/index.php?title=Datei:Locator_map_Oberfranken_in_Germany.svg&amp;filetimestamp=20090324182239"
-                        class="image"><img alt="Locator map Oberfranken in Germany.svg"
-                                           src="//upload.wikimedia.org/wikipedia/commons/thumb/9/98/Locator_map_Oberfranken_in_Germany.svg/125px-Locator_map_Oberfranken_in_Germany.svg.png"
-                                           width="125" height="148"/></a><br/>
-                    <small>Lage in Bayern und Deutschland</small>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <!-- /content -->
+    <table class="float-right" style="width:290px; font-size:90%; background:#FAFAFA; border:1px solid #bbb; margin:0px 0px 1em 1em; border-collapse:collapse;" summary="Infobox">
+        <tr>
+            <td colspan="2">
+                <table style="border:0px; border-collapse:collapse; width:100%;" class="nogrid">
+                    <tr>
+                        <td style="text-align:center;"><a href="/w/index.php?title=Datei:Wappen_Bezirk_Oberfranken2.svg&amp;filetimestamp=20100914122813" class="image" title="Wappen"><img alt="Wappen" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Wappen_Bezirk_Oberfranken2.svg/100px-Wappen_Bezirk_Oberfranken2.svg.png" width="100" height="100" /></a><br />
+                            <small>Wappen</small></td>
+                        <td style="text-align:center;"><a href="/w/index.php?title=Datei:Flagge_Oberfranken.svg&amp;filetimestamp=20100914123555" class="image" title="Flagge"><img alt="Flagge" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flagge_Oberfranken.svg/149px-Flagge_Oberfranken.svg.png" width="149" height="89" class="thumbborder" /></a><br />
+                            <small>Flagge</small></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px; border-top:solid 1px #bbb;"><a href="/wiki/Staat" title="Staat">Staat</a>:</td>
+            <td style="border-left:0px; border-top:solid 1px #bbb;"><a href="/wiki/Deutschland" title="Deutschland">Deutschland</a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px; border-top:solid 0px #bbb;"><a href="/wiki/Land_(Deutschland)" title="Land (Deutschland)">Bundesland</a>:</td>
+            <td style="border-left:0px; border-top:solid 0px #bbb;"><a href="/wiki/Bayern" title="Bayern">Bayern</a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Verwaltungssitz" title="Verwaltungssitz">Verwaltungssitz</a>:</td>
+            <td><a href="/wiki/Bayreuth" title="Bayreuth">Bayreuth</a></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">&#160;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Gr&ouml;&szlig;te St&auml;dte:</td>
+            <td><small>1.</small> <a href="/wiki/Bayreuth" title="Bayreuth">Bayreuth</a><br />
+                <small>2.</small> <a href="/wiki/Bamberg" title="Bamberg">Bamberg</a><br />
+                <small>3.</small> <a href="/wiki/Hof_(Saale)" title="Hof (Saale)">Hof</a><br />
+                <small>4.</small> <a href="/wiki/Coburg" title="Coburg">Coburg</a></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">&#160;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Fl%C3%A4cheninhalt" title="Flächeninhalt">Fl&auml;che</a>:</td>
+            <td>7.231,41&#160;<a href="/wiki/Quadratmeter#Quadratkilometer" title="Quadratmeter">km<sup>2</sup></a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Einwohnerzahl" title="Einwohnerzahl">Einwohner</a>:</td>
+            <td>1.082.516 <small><i>(31.12.2008)</i></small></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Bev%C3%B6lkerungsdichte" title="Bevölkerungsdichte">Bev&ouml;lkerungsdichte</a>:</td>
+            <td>150 Einwohner je km<sup>2</sup></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0px; font-size:1px; line-height:1px; border-bottom:solid 1px #bbb;">&#160;</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Bezirkstagspr&auml;sident:</td>
+            <td><a href="/wiki/G%C3%BCnther_Denzler" title="Günther Denzler">G&uuml;nther Denzler</a> (<a href="/wiki/Christlich-Soziale_Union_in_Bayern" title="Christlich-Soziale Union in Bayern">CSU</a>)</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;">Regierungspr&auml;sident:</td>
+            <td><a href="/wiki/Wilhelm_Wenning" title="Wilhelm Wenning">Wilhelm Wenning</a></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold; padding-left:8px;"><a href="/wiki/Webpr%C3%A4senz" title="Webpräsenz" class="mw-redirect">Webpr&auml;senz</a>:</td>
+            <td>
+                <div style="overflow: hidden;"><a rel="nofollow" class="external text" href="http://www.bezirk-oberfranken.de/">Bezirk</a><br />
+                    <a rel="nofollow" class="external text" href="http://www.regierung.oberfranken.bayern.de/">Regierung</a></div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center;padding:3.5px;border-top:solid 1px #bbb;"><a href="/w/index.php?title=Datei:Locator_map_RB_Oberfranken_in_Bavaria.svg&amp;filetimestamp=20090325181349" class="image"><img alt="Locator map RB Oberfranken in Bavaria.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Locator_map_RB_Oberfranken_in_Bavaria.svg/150px-Locator_map_RB_Oberfranken_in_Bavaria.svg.png" width="150" height="148" /></a> <a href="/w/index.php?title=Datei:Locator_map_Oberfranken_in_Germany.svg&amp;filetimestamp=20090324182239" class="image"><img alt="Locator map Oberfranken in Germany.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/98/Locator_map_Oberfranken_in_Germany.svg/125px-Locator_map_Oberfranken_in_Germany.svg.png" width="125" height="148" /></a><br />
+                <small>Lage in Bayern und Deutschland</small></td>
+        </tr>
+    </table>
+</div>    <!-- /content -->
 </div>
 <!-- /Page -->
 <!-- /landtag_berichte_bezirke- Pages -->
@@ -1676,9 +1261,8 @@
     <!-- /header -->
     <!-- content -->
     <div data-role="content">
-        <iframe src="http://eit-bon-nb017:8586/cam.html">Du nix iFrame!</iframe>
-    </div>
-    <!-- /content -->
+    <iframe src="http://eit-bon-nb017:8586/cam.html">Du nix iFrame!</iframe>
+</div>    <!-- /content -->
 </div>
 <!-- /Page -->
 <!-- /landtag_berichte- Pages -->
